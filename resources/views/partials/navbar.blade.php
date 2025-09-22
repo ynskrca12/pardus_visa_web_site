@@ -8,10 +8,10 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">Ana Sayfa</a>
+                    <a href="{{ route('home') }}" class="nav-link">Ana Sayfa</a>
                 </li>
                 <li class="nav-item {{ Request::is('vize-turleri*') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">Vize Türleri</a>
+                    <a href="{{ route('visa-types.visa_types_index') }}" class="nav-link">Vize Türleri</a>
                 </li>
                 <li class="nav-item {{ Request::is('ulkeler*') ? 'active' : '' }}">
                     <a href="#" class="nav-link">Ülkeler</a>

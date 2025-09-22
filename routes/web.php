@@ -15,7 +15,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Vize Türleri - SEO friendly URLs
 Route::prefix('vize-turleri')->name('visa-types.')->group(function () {
-    Route::get('/', [VisaTypeController::class, 'index'])->name('index');
+    Route::get('/', [VisaTypeController::class, 'visa_types_index'])->name('visa_types_index');
     Route::get('/turist-vizesi', [VisaTypeController::class, 'tourist'])->name('tourist');
     Route::get('/is-vizesi', [VisaTypeController::class, 'business'])->name('business');
     Route::get('/ogrenci-vizesi', [VisaTypeController::class, 'student'])->name('student');

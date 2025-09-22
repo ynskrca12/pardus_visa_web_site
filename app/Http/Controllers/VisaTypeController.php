@@ -9,7 +9,7 @@ class VisaTypeController extends Controller
     /**
      * Ana vize türleri sayfası
      */
-    public function index()
+    public function visa_types_index()
     {
         $visaTypes = [
             [
@@ -116,7 +116,7 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa-types.index', compact('visaTypes'));
+        return view('visa_types.visa_types_index', compact('visaTypes'));
     }
 
     /**
@@ -155,7 +155,7 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa-types.detail', compact('visaDetails'));
+        return view('visa_types.tourist', compact('visaDetails'));
     }
 
     /**

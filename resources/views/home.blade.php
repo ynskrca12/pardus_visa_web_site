@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Profesyonel Vize Danışmanlığı | Turizm Acentesi')
+@section('title', 'Profesyonel Vize Danışmanlığı | Travellines Turizm')
 
 @section('content')
     <!-- Hero Slider -->
