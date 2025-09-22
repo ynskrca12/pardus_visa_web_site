@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Deluxe - Hotels & Resorts')
+@section('title', 'Profesyonel Vize Danışmanlığı | Turizm Acentesi')
 
 @section('content')
     <!-- Hero Slider -->
@@ -11,8 +11,8 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-center">
                     <div class="col-md-12 ftco-animate text-center">
                         <div class="text mb-5 pb-3">
-                            <h1 class="mb-3">Welcome To Deluxe</h1>
-                            <h2>Hotels &amp; Resorts</h2>
+                            <h1 class="mb-3">Profesyonel Vize Danışmanlığı</h1>
+                            <h2>30+ Ülke için Güvenilir Çözüm</h2>
                         </div>
                     </div>
                 </div>
@@ -25,8 +25,8 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-center">
                     <div class="col-md-12 ftco-animate text-center">
                         <div class="text mb-5 pb-3">
-                            <h1 class="mb-3">Enjoy A Luxury Experience</h1>
-                            <h2>Join With Us</h2>
+                            <h1 class="mb-3">Hızlı & Güvenli Vize İşlemleri</h1>
+                            <h2>Yanınızdayız</h2>
                         </div>
                     </div>
                 </div>
@@ -34,198 +34,127 @@
         </div>
     </section>
 
+    <!-- Hakkımızda -->
     <section class="ftco-section ftc-no-pb ftc-no-pt">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/bg_2.jpg);">
-                    <a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
-                        <span class="icon-play"></span>
-                    </a>
+                <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center"
+                     style="background-image: url({{ asset('images/img1.jpg') }});">
                 </div>
                 <div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
-            <div class="heading-section heading-section-wo-line pt-md-5 pl-md-5 mb-5">
-            <div class="ml-md-0">
-                <span class="subheading">Welcome to Deluxe Hotel</span>
-                <h2 class="mb-4">Welcome To Our Hotel</h2>
-            </div>
-            </div>
-            <div class="pb-md-5">
-                        <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-                        <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+                    <div class="heading-section pt-md-5 pl-md-5 mb-5">
+                        <span class="subheading">Pardus Turizm | Travellines</span>
+                        <h2 class="mb-4">Neden Biz?</h2>
+                        <p>20 yıllık tecrübemizle, dünyanın birçok ülkesine vize danışmanlığı hizmeti sunuyoruz.
+                            Profesyonel ekibimizle evrak hazırlama, randevu alma ve süreç takibi aşamalarında
+                            %100 destek veriyoruz.</p>
+                        <p>Amacımız, seyahatinizin ilk adımı olan vize işlemlerinde süreci sizin için en kolay hale getirmek.</p>
                         <ul class="ftco-social d-flex">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services py-4 d-block text-center">
-              <div class="d-flex justify-content-center">
-              	<div class="icon d-flex align-items-center justify-content-center">
-              		<span class="flaticon-reception-bell"></span>
-              	</div>
-              </div>
-              <div class="media-body p-2 mt-2">
-                <h3 class="heading mb-3">25/7 Front Desk</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
-              </div>
+    <!-- Hizmetler -->
+    <section class="ftco-section bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-8 text-center heading-section ftco-animate">
+                    <span class="subheading">Hizmetlerimiz</span>
+                    <h2 class="mb-4">Vize Sürecinde Yanınızdayız</h2>
+                    <p>Profesyonel ekibimizle vize başvurularınızın her adımında size özel çözümler sunuyoruz.</p>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services py-4 d-block text-center">
-              <div class="d-flex justify-content-center">
-              	<div class="icon d-flex align-items-center justify-content-center">
-              		<span class="flaticon-serving-dish"></span>
-              	</div>
-              </div>
-              <div class="media-body p-2 mt-2">
-                <h3 class="heading mb-3">Restaurant Bar</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
-              </div>
+            <div class="row">
+                <!-- 1 -->
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
+                        <div class="icon mb-3">
+                            <span class="flaticon-passport"></span>
+                        </div>
+                        <h3 class="heading mb-3">Schengen Vizesi</h3>
+                        <p>Avrupa seyahatleriniz için eksiksiz evrak hazırlığı ve hızlı başvuru desteği.</p>
+                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
+                        <div class="icon mb-3">
+                            <span class="flaticon-airplane"></span>
+                        </div>
+                        <h3 class="heading mb-3">Amerika Vizesi</h3>
+                        <p>ABD turistik, öğrenci ve iş vizelerinde profesyonel danışmanlık ve randevu desteği.</p>
+                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
+                        <div class="icon mb-3">
+                            <span class="flaticon-global"></span>
+                        </div>
+                        <h3 class="heading mb-3">Asya & Uzak Doğu</h3>
+                        <p>Çin, Japonya, Dubai ve diğer ülkeler için güvenilir ve hızlı işlem desteği.</p>
+                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
+                        <div class="icon mb-3">
+                            <span class="flaticon-support"></span>
+                        </div>
+                        <h3 class="heading mb-3">Danışmanlık</h3>
+                        <p>Tüm süreç boyunca birebir takip, evrak kontrolü ve profesyonel yönlendirme.</p>
+                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3 d-flex align-sel Searchf-stretch ftco-animate">
-            <div class="media block-6 services py-4 d-block text-center">
-              <div class="d-flex justify-content-center">
-              	<div class="icon d-flex align-items-center justify-content-center">
-              		<span class="flaticon-car"></span>
-              	</div>
-              </div>
-              <div class="media-body p-2 mt-2">
-                <h3 class="heading mb-3">Transfer Services</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services py-4 d-block text-center">
-              <div class="d-flex justify-content-center">
-              	<div class="icon d-flex align-items-center justify-content-center">
-              		<span class="flaticon-spa"></span>
-              	</div>
-              </div>
-              <div class="media-body p-2 mt-2">
-                <h3 class="heading mb-3">Spa Suites</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
-     <section class="ftco-section bg-light">
-    	<div class="container">
-				<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Our Rooms</h2>
-          </div>
-        </div>
-    		<div class="row">
-    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
-    				<div class="room">
-    					<a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-1.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">Suite Room</a></h3>
-    						<p><span class="price mr-2">$120.00</span> <span class="per">per night</span></p>
-    						<hr>
-    						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
-    				<div class="room">
-    					<a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-2.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">Family Room</a></h3>
-    						<p><span class="price mr-2">$20.00</span> <span class="per">per night</span></p>
-    						<hr>
-    						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
-    				<div class="room">
-    					<a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-3.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">Deluxe Room</a></h3>
-    						<p><span class="price mr-2">$150.00</span> <span class="per">per night</span></p>
-    						<hr>
-    						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
-    				<div class="room">
-    					<a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-4.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">Classic Room</a></h3>
-    						<p><span class="price mr-2">$130.00</span> <span class="per">per night</span></p>
-    						<hr>
-    						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
-    				<div class="room">
-    					<a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-5.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">Superior Room</a></h3>
-    						<p><span class="price mr-2">$300.00</span> <span class="per">per night</span></p>
-    						<hr>
-    						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
-    					</div>
-    				</div>
-    			</div>
-    			<div class="col-sm col-md-6 col-lg-4 ftco-animate">
-    				<div class="room">
-    					<a href="rooms.html" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/room-6.jpg);">
-    						<div class="icon d-flex justify-content-center align-items-center">
-    							<span class="icon-search2"></span>
-    						</div>
-    					</a>
-    					<div class="text p-3 text-center">
-    						<h3 class="mb-3"><a href="rooms.html">Luxury Room</a></h3>
-    						<p><span class="price mr-2">$500.00</span> <span class="per">per night</span></p>
-    						<hr>
-    						<p class="pt-1"><a href="room-single.html" class="btn-custom">View Room Details <span class="icon-long-arrow-right"></span></a></p>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
+    <!-- Özel CSS -->
+    <style>
+        .service-card {
+            background: #fff;
+            border-radius: 12px;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid #eee;
+            min-height: 100%; /* tüm kartlar eşit yükseklikte */
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+            border-color: #8d703b;
+        }
+        .service-card .icon {
+            font-size: 40px;
+            color: #8d703b;
+            transition: all 0.3s ease;
+        }
+        .service-card h3 {
+            font-weight: 600;
+        }
+        .service-card p {
+            font-size: 14px;
+            color: #555;
+            flex-grow: 1; /* açıklama alanı esneyip boşluğu doldursun */
+        }
+        .btn-outline-detail{
+            color: #8d703b;
+            background-color: transparent;
+            background-image: none;
+            border-color: #8d703b;
+        }
+    </style>
 
-    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
+<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
     	<div class="container">
     		<div class="row justify-content-center">
     			<div class="col-md-10">
@@ -233,24 +162,8 @@
 		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
 		            <div class="block-18 text-center">
 		              <div class="text">
-		                <strong class="number" data-number="50000">0</strong>
-		                <span>Happy Guests</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="3000">0</strong>
-		                <span>Rooms</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="1000">0</strong>
-		                <span>Staffs</span>
+		                <strong class="number" data-number="10000">0</strong>
+		                <span>Mutlu Müşteri</span>
 		              </div>
 		            </div>
 		          </div>
@@ -258,7 +171,23 @@
 		            <div class="block-18 text-center">
 		              <div class="text">
 		                <strong class="number" data-number="100">0</strong>
-		                <span>Destination</span>
+		                <span>ülke</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="20">0</strong>
+		                <span>Yıllık Tecrübe</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="10000">0</strong>
+		                <span>Başarılı Vize</span>
 		              </div>
 		            </div>
 		          </div>
@@ -268,93 +197,52 @@
     	</div>
     </section>
 
-
+    <!-- Müşteri Yorumları -->
     <section class="ftco-section testimony-section bg-light">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 ftco-animate">
-          	<div class="row ftco-animate">
-		          <div class="col-md-12">
-		            <div class="carousel-testimony owl-carousel ftco-owl">
-		              <div class="item">
-		                <div class="testimony-wrap py-4 pb-5">
-		                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-		                    <span class="quote d-flex align-items-center justify-content-center">
-		                      <i class="icon-quote-left"></i>
-		                    </span>
-		                  </div>
-		                  <div class="text text-center">
-		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		                    <p class="name">Nathan Smith</p>
-		                    <span class="position">Guests</span>
-		                  </div>
-		                </div>
-		              </div>
-		              <div class="item">
-		                <div class="testimony-wrap py-4 pb-5">
-		                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
-		                    <span class="quote d-flex align-items-center justify-content-center">
-		                      <i class="icon-quote-left"></i>
-		                    </span>
-		                  </div>
-		                  <div class="text text-center">
-		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		                    <p class="name">Nathan Smith</p>
-		                    <span class="position">Guests</span>
-		                  </div>
-		                </div>
-		              </div>
-		              <div class="item">
-		                <div class="testimony-wrap py-4 pb-5">
-		                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
-		                    <span class="quote d-flex align-items-center justify-content-center">
-		                      <i class="icon-quote-left"></i>
-		                    </span>
-		                  </div>
-		                  <div class="text text-center">
-		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		                    <p class="name">Nathan Smith</p>
-		                    <span class="position">Guests</span>
-		                  </div>
-		                </div>
-		              </div>
-		              <div class="item">
-		                <div class="testimony-wrap py-4 pb-5">
-		                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-		                    <span class="quote d-flex align-items-center justify-content-center">
-		                      <i class="icon-quote-left"></i>
-		                    </span>
-		                  </div>
-		                  <div class="text text-center">
-		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		                    <p class="name">Nathan Smith</p>
-		                    <span class="position">Guests</span>
-		                  </div>
-		                </div>
-		              </div>
-		              <div class="item">
-		                <div class="testimony-wrap py-4 pb-5">
-		                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-		                    <span class="quote d-flex align-items-center justify-content-center">
-		                      <i class="icon-quote-left"></i>
-		                    </span>
-		                  </div>
-		                  <div class="text text-center">
-		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-		                    <p class="name">Nathan Smith</p>
-		                    <span class="position">Guests</span>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-          </div>
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-7 text-center heading-section ftco-animate">
+                    <h2>Müşteri Yorumları</h2>
+                </div>
+            </div>
+            <div class="row ftco-animate">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel">
+                        <div class="item">
+                            <div class="testimony-wrap py-4 pb-5">
+                                <div class="text text-center">
+                                    <p class="mb-4">Schengen vizem için çok hızlı destek aldım. Evraklarımı kontrol edip
+                                        süreci kolaylaştırdılar. Teşekkürler!</p>
+                                    <p class="name">Ahmet K.</p>
+                                    <span class="position">Müşteri</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4 pb-5">
+                                <div class="text text-center">
+                                    <p class="mb-4">ABD öğrenci vizemde her aşamada yanımda oldular. Profesyonel bir ekip!</p>
+                                    <p class="name">Elif D.</p>
+                                    <span class="position">Müşteri</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4 pb-5">
+                                <div class="text text-center">
+                                    <p class="mb-4">Dubai vizem için hızlıca işlem yaptılar, 3 günde vizem çıktı.</p>
+                                    <p class="name">Murat Y.</p>
+                                    <span class="position">Müşteri</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
-
+    <!-- Blog & Duyurular -->
     <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -423,7 +311,7 @@
       </div>
     </section>
 
-    <section class="instagram">
+       <section class="instagram">
       <div class="container-fluid">
         <div class="row no-gutters justify-content-center pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
