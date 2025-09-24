@@ -194,7 +194,7 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa-types.detail', compact('visaDetails'));
+        return view('visa_types.business', compact('visaDetails'));
     }
 
     /**
@@ -233,7 +233,7 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa-types.detail', compact('visaDetails'));
+        return view('visa_types.student', compact('visaDetails'));
     }
 
     /**
@@ -269,7 +269,7 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa-types.detail', compact('visaDetails'));
+        return view('visa_types.transit', compact('visaDetails'));
     }
 
     /**
@@ -308,7 +308,7 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa-types.detail', compact('visaDetails'));
+        return view('visa_types.detail', compact('visaDetails'));
     }
 
     /**
@@ -350,6 +350,6 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa-types.detail', compact('visaDetails'));
+        return view('visa_types.detail', compact('visaDetails'));
     }
 }

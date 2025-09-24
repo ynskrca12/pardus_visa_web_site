@@ -162,7 +162,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-md-2 text-center">
                                             <div class="timeline-number">
-                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #e09900;">1</span>
+                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #2c3e50;">1</span>
                                             </div>
                                         </div>
                                         <div class="col-md-10">
@@ -175,7 +175,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-md-2 text-center">
                                             <div class="timeline-number">
-                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #e09900;">2</span>
+                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #2c3e50;">2</span>
                                             </div>
                                         </div>
                                         <div class="col-md-10">
@@ -188,7 +188,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-md-2 text-center">
                                             <div class="timeline-number">
-                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #e09900;">3</span>
+                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #2c3e50;">3</span>
                                             </div>
                                         </div>
                                         <div class="col-md-10">
@@ -201,7 +201,7 @@
                                     <div class="row align-items-center">
                                         <div class="col-md-2 text-center">
                                             <div class="timeline-number">
-                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #e09900;">4</span>
+                                                <span class="badge badge-primary rounded-circle p-3 text-white" style="background: #2c3e50;">4</span>
                                             </div>
                                         </div>
                                         <div class="col-md-10">
@@ -222,7 +222,7 @@
                                 <div class="card mb-3">
                                     <div class="card-header" id="faq1">
                                         <h5 class="mb-0">
-                                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1">
+                                            <button class="btn bg-transparent" type="button" data-toggle="collapse" data-target="#collapse1">
                                                 Turist vizesi ne kadar süre geçerlidir?
                                             </button>
                                         </h5>
@@ -237,7 +237,7 @@
                                 <div class="card mb-3">
                                     <div class="card-header" id="faq2">
                                         <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2">
+                                            <button class="btn bg-transparent collapsed" type="button" data-toggle="collapse" data-target="#collapse2">
                                                 Vize başvurusu ne kadar sürede sonuçlanır?
                                             </button>
                                         </h5>
@@ -252,7 +252,7 @@
                                 <div class="card mb-3">
                                     <div class="card-header" id="faq3">
                                         <h5 class="mb-0">
-                                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3">
+                                            <button class="btn bg-transparent collapsed" type="button" data-toggle="collapse" data-target="#collapse3">
                                                 Vize başvurum reddedilirse ne olur?
                                             </button>
                                         </h5>
@@ -270,81 +270,121 @@
 
                 <!-- Sidebar -->
                 <div class="col-lg-4">
-                    <!-- Fiyat Kartı -->
-                    <div class="card mb-4 " style="top: 20px;">
-                        <div class="card-header text-center" style="background: #e09900; color: white;">
+                    <!-- Fiyat ve Başvuru Kartı -->
+                    <div class="pricing-card mb-4 text-center" style="top: 20px; background: white; border-radius: 15px; border:1px solid #dcdcdc; overflow: hidden;">
+                        <div class="card-header text-center py-3" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white;">
                             <h4 class="mb-0 text-white">Turist Vizesi</h4>
                         </div>
-                        <div class="card-body text-center">
-                            <div class="price-display mb-3">
-                                <span class="h2" style="color: #8d703b;">$250</span>
+                         <div class="price-display mb-3 mt-3">
+                                <span class="h2" style="color: #2c3e50;">$250</span>
                                 <small class="text-muted d-block">başlangıç fiyat</small>
                             </div>
 
-                            <div class="visa-features mb-4">
-                                <div class="row text-center mb-3">
+                        <div class="pricing-body p-4">
+                            <!-- Vize Özellikleri -->
+                            <div class="visa-specs mb-5">
+                                <div class="row text-center">
                                     <div class="col-4">
-                                        <i class="icon-clock" style="color: #8d703b; font-size: 1.5em;"></i>
-                                        <small class="d-block mt-1">15-30 gün</small>
-                                        <small class="text-muted">Kalış süresi</small>
+                                        <div class="spec-item">
+                                            <i class="icon-calendar" style="color: #2c3e50; font-size: 1.8em;"></i>
+                                            <div class="mt-2">
+                                                <strong style="font-size: 16px;">30-90</strong>
+                                                <small class="d-block text-muted">gün kalış</small>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-4">
-                                        <i class="icon-calendar" style="color: #8d703b; font-size: 1.5em;"></i>
-                                        <small class="d-block mt-1">7-10 gün</small>
-                                        <small class="text-muted">İşlem süresi</small>
+                                        <div class="spec-item">
+                                            <i class="fas fa-hourglass-half" style="color: #2c3e50; font-size: 1.8em;"></i>
+                                            <div class="mt-2">
+                                                <strong style="font-size: 16px;">10-15</strong>
+                                                <small class="d-block text-muted">iş günü</small>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-4">
-                                        <i class="icon-check" style="color: #8d703b; font-size: 1.5em;"></i>
-                                        <small class="d-block mt-1">90 gün</small>
-                                        <small class="text-muted">Geçerlilik</small>
+                                        <div class="spec-item">
+                                            <i class="icon-check-circle" style="color: #2c3e50; font-size: 1.8em;"></i>
+                                            <div class="mt-2">
+                                                <strong style="font-size: 16px;">180</strong>
+                                                <small class="d-block text-muted">gün geçerli</small>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <ul class="list-unstyled text-left">
-                                    <li class="mb-2">
-                                        <i class="icon-check mr-2" style="color: #28a745;"></i>Tek giriş
+                            <!-- Özellikler Listesi -->
+                            <div class="features-list mb-4">
+                                <h6 class="mb-3" style="font-weight: 600; color: #2c3e50;">Dahil Edilen Hizmetler</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2 d-flex align-items-center">
+                                        <i class="icon-check mr-2" style="color: #28a745; font-size: 1.1em;"></i>
+                                        <span>Çoklu giriş imkanı</span>
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="icon-check mr-2" style="color: #28a745;"></i>Çoklu giriş seçeneği
+                                    <li class="mb-2 d-flex align-items-center">
+                                        <i class="icon-check mr-2" style="color: #28a745; font-size: 1.1em;"></i>
+                                        <span>Uzun süreli geçerlilik</span>
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="icon-check mr-2" style="color: #28a745;"></i>Turist rehberi desteği
+                                    <li class="mb-2 d-flex align-items-center">
+                                        <i class="icon-check mr-2" style="color: #28a745; font-size: 1.1em;"></i>
+                                        <span>İş davetiye desteği</span>
                                     </li>
-                                    <li class="mb-2">
-                                        <i class="icon-check mr-2" style="color: #28a745;"></i>Hızlı işlem
+                                    <li class="mb-2 d-flex align-items-center">
+                                        <i class="icon-check mr-2" style="color: #28a745; font-size: 1.1em;"></i>
+                                        <span>Öncelikli işlem hakkı</span>
+                                    </li>
+                                    <li class="mb-2 d-flex align-items-center">
+                                        <i class="icon-check mr-2" style="color: #28a745; font-size: 1.1em;"></i>
+                                        <span>7/24 uzman desteği</span>
                                     </li>
                                 </ul>
                             </div>
 
-                            <a href="#" class="btn btn-primary btn-lg btn-block mb-3" style="background: #e09900; border: none;">
-                                <i class="icon-phone mr-2"></i>Hemen Başvur
-                            </a>
-                            <a href="#" class="btn btn-outline-secondary btn-block">
-                                <i class="icon-message-circle mr-2"></i>Ücretsiz Danışmanlık
-                            </a>
+                            <!-- Başvuru Butonları -->
+                            <div class="action-buttons">
+                                <a href="#" class="btn btn-outline-secondary btn-block mb-3" style="color:#2c3e50; border-radius: 8px; padding: 15px; font-weight: 500;">
+                                    <i class="icon-send mr-2"></i>Hemen Başvur
+                                </a>
+                                <a href="#" class="btn btn-outline-secondary btn-block" style="color:#2c3e50;border-radius: 8px; padding: 15px;font-weight: 500;">
+                                    <i class="icon-phone mr-2"></i>Ücretsiz Danışmanlık
+                                </a>
+                            </div>
                         </div>
                     </div>
 
                     <!-- İletişim Kartı -->
-                    <div class="card">
-                        <div class="card-header">
-                            <h5 class="mb-0">Hemen İletişime Geçin</h5>
-                        </div>
-                        <div class="card-body">
-                            <div class="contact-item mb-3">
-                                <i class="icon-phone mr-2" style="color: #8d703b;"></i>
-                                <strong>(0212) 211 52 34</strong>
-                                <br><small class="text-muted">7/24 Destek Hattı</small>
+                    <div class="contact-card" style="background: white; border-radius: 15px; border: 1px solid #dcdcdc; padding: 25px;">
+                        <h5 class="mb-4" style="font-weight: 600; color: #2c3e50;">
+                            <i class="icon-headphones mr-2" style="color: #2c3e50;"></i>Uzman Desteği
+                        </h5>
+                        <div class="contact-methods">
+                            <div class="contact-item mb-3 py-3" style="">
+                                <div class="d-flex align-items-center">
+                                    <i class="icon-phone mr-3" style="color: #2c3e50; font-size: 1.3em;"></i>
+                                    <div>
+                                        <strong style="color: #2c3e50;"> (0212) 211 52 34</strong>
+                                        <small class="d-block text-muted">7/24 Acil Destek</small>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-item mb-3">
-                                <i class="icon-mail mr-2" style="color: #8d703b;"></i>
-                                <strong>info@pardusvize.com</strong>
-                                <br><small class="text-muted">E-posta Desteği</small>
+                            <div class="contact-item mb-3 py-3" style="">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-envelope mr-3" style="color: #2c3e50; font-size: 1.3em;"></i>
+                                    <div>
+                                        <strong style="color: #2c3e50;">info@pardusvize.com</strong>
+                                        <small class="d-block text-muted">E-posta Desteği</small>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="contact-item">
-                                <i class="icon-map-pin mr-2" style="color: #8d703b;"></i>
-                                <strong>Kuştepe, Mecidiyeköy Yolu Cd. No:16, Daire:4, 34381 Şişli/İstanbul</strong>
-                                <br><small class="text-muted">Merkez Ofisimizi Ziyaret Edin</small>
+                            <div class="contact-item py-3" style="">
+                                <div class="d-flex align-items-center">
+                                    <i class="icon-map-pin mr-4" style="color: #2c3e50; font-size: 1.3em;"></i>
+                                    <div>
+                                        <strong style="color: #2c3e50;">Kuştepe, Mecidiyeköy Yolu Cd. No:16, Daire:4, 34381 Şişli/İstanbul</strong>
+                                        <small class="d-block text-muted">Merkez Ofisimizi Ziyaret Edin</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -353,25 +393,54 @@
         </div>
     </section>
 
-    <!-- CTA Bölümü -->
-    <section class="ftco-section" style="background: #e09900; color: white;">
+  <!-- CTA Bölümü -->
+    <section class="ftco-section" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white; padding: 80px 0;">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-10">
-                    <h2 class="mb-3 text-white">Turist Vizesi Başvurunuz İçin Uzman Desteği</h2>
-                    <p class="mb-4" style="font-size: 18px; opacity: 0.9;">
-                        25 yıllık deneyimimiz ve %98 başarı oranımızla hayalinizdeki tatili güvenle planlayın
-                    </p>
-                    <div class="row justify-content-center">
-                        <div class="col-md-4 mb-3">
-                            <a href="#" class="btn btn-light btn-lg btn-block">
-                                <i class="icon-phone mr-2"></i>Hemen Ara
-                            </a>
+                    <div class="cta-content">
+                        <h2 class="mb-4 text-white" style="font-size: 2.5em; font-weight: 600;">Turist Vizesi Başvurunuz İçin Uzman Desteği</h2>
+                        <p class="mb-4" style="font-size: 18px; opacity: 0.9; max-width: 600px; margin: 0 auto;">
+                            25 yıllık deneyimimiz ve uzman kadromuzla iş vizesi başvurunuzu güvenle tamamlayın.
+                            Kurumsal çözümler için özel indirimler mevcuttur.
+                        </p>
+                        <div class="cta-buttons">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <a href="#" class="btn btn-outline-light btn-lg btn-block" style=" border-radius: 8px; padding: 15px; font-weight: 500;">
+                                        <i class="icon-phone mr-2"></i>Hemen Arayın
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <a href="#" class="btn btn-outline-light btn-lg btn-block" style="border-radius: 8px; padding: 15px; font-weight: 500;">
+                                        <i class="icon-calendar mr-2"></i>Randevu Alın
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4 mb-3">
-                            <a href="#" class="btn btn-outline-light btn-lg btn-block">
-                                <i class="icon-calendar mr-2"></i>Randevu Al
-                            </a>
+
+                        <!-- Ek Bilgi -->
+                        <div class="cta-features mt-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="icon-shield mr-2"></i>
+                                        <span>%100 Güvenli İşlem</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-bolt mr-2"></i>
+                                        <span>Hızlı Sonuçlandırma</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="icon-headphones mr-2"></i>
+                                        <span>7/24 Destek</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

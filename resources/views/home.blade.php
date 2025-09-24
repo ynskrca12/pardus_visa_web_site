@@ -38,7 +38,7 @@
     <section class="ftco-section ftc-no-pb ftc-no-pt">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center"
+                <div class="col-md-5 p-md-5 img d-flex justify-content-center align-items-center"
                      style="background-image: url({{ asset('images/img1.jpg') }});">
                 </div>
                 <div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
@@ -131,11 +131,11 @@
         .service-card:hover {
             transform: translateY(-8px);
             box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
-            border-color: #8d703b;
+            border-color: #2c3e50;
         }
         .service-card .icon {
             font-size: 40px;
-            color: #8d703b;
+            color: #2c3e50;
             transition: all 0.3s ease;
         }
         .service-card h3 {
@@ -147,10 +147,10 @@
             flex-grow: 1; /* açıklama alanı esneyip boşluğu doldursun */
         }
         .btn-outline-detail{
-            color: #8d703b;
+            color: #2c3e50;
             background-color: transparent;
             background-image: none;
-            border-color: #8d703b;
+            border-color: #2c3e50;
         }
     </style>
 

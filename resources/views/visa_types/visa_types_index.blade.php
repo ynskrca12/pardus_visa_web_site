@@ -44,7 +44,7 @@
                 <div class="col-md-3 col-sm-6 text-center ftco-animate">
                     <div class="counter-wrap">
                         <div class="text">
-                            <span class="ftco-number" style="color: #8d703b; font-size: 3em; font-weight: bold;">15000+</span>
+                            <span class="ftco-number" style="color: #2c3e50; font-size: 3em; font-weight: bold;">15000+</span>
                             <p>Başarılı Vize</p>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                 <div class="col-md-3 col-sm-6 text-center ftco-animate">
                     <div class="counter-wrap">
                         <div class="text">
-                            <span class="ftco-number" style="color: #8d703b; font-size: 3em; font-weight: bold;">98%</span>
+                            <span class="ftco-number" style="color: #2c3e50; font-size: 3em; font-weight: bold;">98%</span>
                             <p>Başarı Oranı</p>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                 <div class="col-md-3 col-sm-6 text-center ftco-animate">
                     <div class="counter-wrap">
                         <div class="text">
-                            <span class="ftco-number" style="color: #8d703b; font-size: 3em; font-weight: bold;">25</span>
+                            <span class="ftco-number" style="color: #2c3e50; font-size: 3em; font-weight: bold;">25</span>
                             <p>Yıl Deneyim</p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                 <div class="col-md-3 col-sm-6 text-center ftco-animate">
                     <div class="counter-wrap">
                         <div class="text">
-                            <span class="ftco-number" style="color: #8d703b; font-size: 3em; font-weight: bold;">50+</span>
+                            <span class="ftco-number" style="color: #2c3e50; font-size: 3em; font-weight: bold;">50+</span>
                             <p>Ülke Vizesi</p>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="visa-price" style="position: absolute; top: 15px; right: 15px; background: #8d703b; color: white; padding: 8px 15px; border-radius: 20px; font-weight: bold;">
+                            <div class="visa-price" style="position: absolute; top: 15px; right: 15px; background: #2c3e50; color: white; padding: 8px 15px; border-radius: 20px; font-weight: bold;">
                                 ${{ $visaType['price'] }}
                             </div>
                         </div>
@@ -119,19 +119,19 @@
                                 <div class="row text-center">
                                     <div class="col-4">
                                         <div class="detail-item">
-                                            <i class="icon-clock" style="color: #8d703b; font-size: 1.2em;"></i>
+                                            <i class="fas fa-calendar" style="color: #2c3e50; font-size: 1.2em;"></i>
                                             <small class="d-block mt-1 text-muted">{{ $visaType['duration'] }}</small>
                                         </div>
                                     </div>
                                     <div class="col-4">
                                         <div class="detail-item">
-                                            <i class="icon-calendar" style="color: #8d703b; font-size: 1.2em;"></i>
+                                            <i class="icon-calendar" style="color: #2c3e50; font-size: 1.2em;"></i>
                                             <small class="d-block mt-1 text-muted">{{ $visaType['processing_time'] }}</small>
                                         </div>
                                     </div>
                                     <div class="col-4">
                                         <div class="detail-item">
-                                            <i class="icon-check" style="color: #8d703b; font-size: 1.2em;"></i>
+                                            <i class="icon-check" style="color: #2c3e50; font-size: 1.2em;"></i>
                                             <small class="d-block mt-1 text-muted">{{ $visaType['validity'] }}</small>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@
                             </div>
 
                             <div class="text-center mt-auto">
-                                <a href="{{ route($visaType['route']) }}" class="btn btn-primary btn-block" style="background: #8d703b; border: none; padding: 12px; border-radius: 6px; font-weight: 500;">
+                                <a href="{{ route($visaType['route']) }}" class="btn btn-primary btn-block" style="background: #2c3e50; border: none; padding: 12px; border-radius: 6px; font-weight: 500;">
                                     Detaylı Bilgi Al <i class="icon-arrow-right ml-2"></i>
                                 </a>
                             </div>
@@ -177,9 +177,9 @@
 
             <div class="row">
                 <div class="col-md-4 text-center ftco-animate mb-4">
-                    <div class="service-item p-4" style="border: 2px solid #f8f9fa; border-radius: 10px; height: 100%;">
+                    <div class="service-item p-4" style="border: 1px solid #dcdcdc; border-radius: 10px; height: 100%;">
                         <div class="service-icon mb-3">
-                            <span style="font-size: 3em; color: #8d703b;" class="icon-shield"></span>
+                            <span style="font-size: 3em; color: #2c3e50;" class="icon-shield"></span>
                         </div>
                         <h4 class="mb-3">Güvenilir Hizmet</h4>
                         <p class="text-muted">25 yıllık sektör deneyimi ile güvenilir ve profesyonel hizmet anlayışımızla yanınızdayız.</p>
@@ -187,9 +187,9 @@
                 </div>
 
                 <div class="col-md-4 text-center ftco-animate mb-4">
-                    <div class="service-item p-4" style="border: 2px solid #f8f9fa; border-radius: 10px; height: 100%;">
+                    <div class="service-item p-4" style="border: 1px solid #dcdcdc; border-radius: 10px; height: 100%;">
                         <div class="service-icon mb-3">
-                            <span style="font-size: 3em; color: #8d703b;" class="icon-headphones"></span>
+                            <span style="font-size: 3em; color: #2c3e50;" class="icon-headphones"></span>
                         </div>
                         <h4 class="mb-3">7/24 Destek</h4>
                         <p class="text-muted">Vize sürecinizin her aşamasında uzman ekibimiz size destek olmaya hazır. Sorularınızı yanıtlıyoruz.</p>
@@ -197,9 +197,9 @@
                 </div>
 
                 <div class="col-md-4 text-center ftco-animate mb-4">
-                    <div class="service-item p-4" style="border: 2px solid #f8f9fa; border-radius: 10px; height: 100%;">
+                    <div class="service-item p-4" style="border: 1px solid #dcdcdc; border-radius: 10px; height: 100%;">
                         <div class="service-icon mb-3">
-                            <span style="font-size: 3em; color: #8d703b;" class="icon-rocket"></span>
+                            <span style="font-size: 3em; color: #2c3e50;" class="icon-rocket"></span>
                         </div>
                         <h4 class="mb-3">Hızlı İşlem</h4>
                         <p class="text-muted">Optimize edilmiş süreçlerimiz sayesinde vize başvurunuzu en kısa sürede sonuçlandırıyoruz.</p>
@@ -210,7 +210,7 @@
     </section>
 
     <!-- CTA Bölümü -->
-    <section class="ftco-section" style="background:  #e09900; color: white;">
+    <section class="ftco-section" style="background:  linear-gradient(135deg, #2c3e50, #34495e); color: white;">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-md-8">
@@ -221,6 +221,28 @@
                     <a href="#" class="btn btn-light btn-lg px-5 py-3" style="border-radius: 50px; font-weight: 500;">
                         <i class="icon-phone mr-2"></i>Ücretsiz Danışmanlık
                     </a>
+                </div>
+            </div>
+            <div class="cta-features mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="feature-item d-flex align-items-center justify-content-center">
+                            <i class="icon-shield mr-2"></i>
+                            <span>%100 Güvenli İşlem</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="feature-item d-flex align-items-center justify-content-center">
+                            <i class="fas fa-bolt mr-2"></i>
+                            <span>Hızlı Sonuçlandırma</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mb-3">
+                        <div class="feature-item d-flex align-items-center justify-content-center">
+                            <i class="icon-headphones mr-2"></i>
+                            <span>7/24 Destek</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -237,14 +259,14 @@
         transform: scale(1.1);
     }
     .service-item:hover {
-        border-color: #8d703b;
+        border-color: #2c3e50;
         transform: translateY(-3px);
         transition: all 0.3s ease;
     }
     .btn-primary:hover {
         background: #fff !important;
-        border-color: #8d703b !important;
-        color: #8d703b !important;
+        border-color: #2c3e50 !important;
+        color: #2c3e50 !important;
     }
     </style>
 @endsection
