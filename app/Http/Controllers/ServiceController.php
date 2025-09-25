@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
-    //
+    public function service_index()
+    {
+        return view('services.service_index');
+    }
 }

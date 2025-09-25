@@ -26,7 +26,7 @@ Route::prefix('vize-turleri')->name('visa-types.')->group(function () {
 
 // Ülkeler - Her ülke için SEO friendly URL
 Route::prefix('ulkeler')->name('countries.')->group(function () {
-    Route::get('/', [CountryController::class, 'index'])->name('index');
+    Route::get('/', [CountryController::class, 'country_index'])->name('index');
 
     // Popüler destinasyonlar
     Route::get('/amerika-vizesi', [CountryController::class, 'usa'])->name('usa');
@@ -59,7 +59,7 @@ Route::prefix('basvuru-sureci')->name('application-process.')->group(function ()
 
 // Hizmetlerimiz
 Route::prefix('hizmetlerimiz')->name('services.')->group(function () {
-    Route::get('/', [ServiceController::class, 'index'])->name('index');
+    Route::get('/', [ServiceController::class, 'service_index'])->name('index');
     Route::get('/vize-danismanligi', [ServiceController::class, 'consultation'])->name('consultation');
     Route::get('/belge-hazirlik', [ServiceController::class, 'document-preparation'])->name('document-preparation');
     Route::get('/randevu-alma-hizmeti', [ServiceController::class, 'appointment-service'])->name('appointment-service');

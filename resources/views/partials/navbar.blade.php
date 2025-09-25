@@ -14,13 +14,13 @@
                     <a href="{{ route('visa-types.visa_types_index') }}" class="nav-link">Vize Türleri</a>
                 </li>
                 <li class="nav-item {{ Request::is('ulkeler*') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">Ülkeler</a>
+                    <a href="{{ route('countries.index') }}" class="nav-link">Ülkeler</a>
                 </li>
                 <li class="nav-item {{ Request::is('basvuru-sureci*') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">Başvuru Süreci</a>
+                    <a href="{{ route('application-process.index') }}" class="nav-link">Başvuru Süreci</a>
                 </li>
                 <li class="nav-item {{ Request::is('hizmetlerimiz*') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">Hizmetlerimiz</a>
+                    <a href="{{ route('services.index') }}" class="nav-link">Hizmetlerimiz</a>
                 </li>
                 <li class="nav-item {{ Request::is('blog*') ? 'active' : '' }}">
                     <a href="#" class="nav-link">Blog</a>

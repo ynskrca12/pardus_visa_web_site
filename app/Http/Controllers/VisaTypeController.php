@@ -308,7 +308,7 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa_types.detail', compact('visaDetails'));
+        return view('visa_types.family', compact('visaDetails'));
     }
 
     /**
@@ -350,6 +350,6 @@ class VisaTypeController extends Controller
             ]
         ];
 
-        return view('visa_types.detail', compact('visaDetails'));
+        return view('visa_types.schengen', compact('visaDetails'));
     }
 }
