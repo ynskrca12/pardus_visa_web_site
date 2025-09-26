@@ -77,10 +77,39 @@ Route::prefix('iletisim')->name('contact.')->group(function () {
     Route::get('/subelerimiz', [ContactController::class, 'branches'])->name('branches');
 });
 
-// Blog - SEO için kritik
+Route::get('/hakkimizda', [ContactController::class, 'about_us'])->name('about.us');
+
+// // Blog - SEO için kritik
+// Route::prefix('blog')->name('blog.')->group(function () {
+//     Route::get('/', [BlogController::class, 'index'])->name('index');
+//     Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('show');
+// });
+
+// Public Blog Routes (Frontend)
 Route::prefix('blog')->name('blog.')->group(function () {
     Route::get('/', [BlogController::class, 'index'])->name('index');
-    Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('show');
+    Route::get('/{slug}', [BlogController::class, 'show'])->name('show');
+});
+
+// Admin Blog Routes (Backend - Auth middleware gerekli)
+Route::prefix('admin/blog')->name('admin.blogs.')->group(function () {
+    Route::get('/', [BlogController::class, 'adminIndex'])->name('index');
+    Route::get('/create', [BlogController::class, 'create'])->name('create');
+    Route::post('/', [BlogController::class, 'store'])->name('store');
+    Route::get('/{blog}/edit', [BlogController::class, 'edit'])->name('edit');
+    Route::put('/{blog}', [BlogController::class, 'update'])->name('update');
+    Route::delete('/{blog}', [BlogController::class, 'destroy'])->name('destroy');
+
+    // AJAX Routes
+    Route::post('/{blog}/toggle-featured', [BlogController::class, 'toggleFeatured'])->name('toggle-featured');
+    Route::post('/{blog}/update-status', [BlogController::class, 'updateStatus'])->name('update-status');
+});
+
+// API Routes (AJAX istekleri için)
+Route::prefix('api/blog')->name('api.blog.')->group(function () {
+    Route::get('/recent', [BlogController::class, 'getRecentBlogs'])->name('recent');
+    Route::get('/popular', [BlogController::class, 'getPopularBlogs'])->name('popular');
+    Route::get('/search', [BlogController::class, 'searchBlogs'])->name('search');
 });
 
 

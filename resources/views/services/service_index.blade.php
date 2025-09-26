@@ -43,7 +43,7 @@
                         <div class="service-card h-100" style="background: white; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); overflow: hidden; transition: transform 0.3s ease;">
                             <div class="service-header" style="background: linear-gradient(135deg, #667eea, #764ba2); padding: 30px; color: white; text-align: center;">
                                 <i class="fas fa-passport fa-3x mb-3"></i>
-                                <h4 style="font-weight: 600;">Vize Hizmetleri</h4>
+                                <h4 class="text-white" style="font-weight: 600;">Vize Hizmetleri</h4>
                             </div>
                             <div class="service-body p-4">
                                 <ul class="service-list list-unstyled mb-4">
@@ -67,7 +67,7 @@
                         <div class="service-card h-100" style="background: white; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); overflow: hidden; transition: transform 0.3s ease;">
                             <div class="service-header" style="background: linear-gradient(135deg, #f093fb, #f5576c); padding: 30px; color: white; text-align: center;">
                                 <i class="fas fa-plane fa-3x mb-3"></i>
-                                <h4 style="font-weight: 600;">Uçak Bileti</h4>
+                                <h4 class="text-white" style="font-weight: 600;">Uçak Bileti</h4>
                             </div>
                             <div class="service-body p-4">
                                 <ul class="service-list list-unstyled mb-4">
@@ -91,7 +91,7 @@
                         <div class="service-card h-100" style="background: white; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.08); overflow: hidden; transition: transform 0.3s ease;">
                             <div class="service-header" style="background: linear-gradient(135deg, #4facfe, #00f2fe); padding: 30px; color: white; text-align: center;">
                                 <i class="fas fa-briefcase fa-3x mb-3"></i>
-                                <h4 style="font-weight: 600;">Kurumsal Seyahat</h4>
+                                <h4 class="text-white" style="font-weight: 600;">Kurumsal Seyahat</h4>
                             </div>
                             <div class="service-body p-4">
                                 <ul class="service-list list-unstyled mb-4">
@@ -291,22 +291,54 @@
         </div>
     </section>
 
-    <!-- CTA -->
-    <section class="ftco-section" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white; padding: 60px 0;">
+    <!-- CTA Bölümü -->
+    <section class="ftco-section" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white; padding: 80px 0;">
         <div class="container">
             <div class="row justify-content-center text-center">
-                <div class="col-md-8">
-                    <h2 class="mb-4" style="font-weight: 600;">Profesyonel Seyahat Hizmetleri</h2>
-                    <p class="mb-4" style="font-size: 18px; opacity: 0.9;">
-                        Vize hizmetleri, uçak bileti rezervasyonu ve kurumsal seyahat çözümleri için uzman ekibimizle iletişime geçin.
-                    </p>
-                    <div class="cta-buttons">
-                        <a href="tel:+902122115234" class="btn btn-light btn-lg mr-3 mb-2" style="border-radius: 8px; font-weight: 600; min-width: 200px;">
-                            <i class="fas fa-phone mr-2"></i>(0212) 211 52 34
-                        </a>
-                        <a href="#" class="btn btn-outline-light btn-lg mb-2" style="border-radius: 8px; font-weight: 600; min-width: 200px;">
-                            <i class="fas fa-envelope mr-2"></i>Teklif Alın
-                        </a>
+                <div class="col-md-10">
+                    <div class="cta-content">
+                        <h2 class="mb-4 text-white" style="font-size: 2.5em; font-weight: 600;">Profesyonel Seyahat Hizmetleri</h2>
+                        <p class="mb-4" style="font-size: 18px; opacity: 0.9; max-width: 600px; margin: 0 auto;">
+                            Vize hizmetleri, uçak bileti rezervasyonu ve kurumsal seyahat çözümleri için uzman ekibimizle iletişime geçin.
+                        </p>
+                        <div class="cta-buttons">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <a href="#" class="btn btn-outline-light btn-lg btn-block" style=" border-radius: 8px; padding: 15px; font-weight: 500;">
+                                        <i class="icon-phone mr-2"></i>Hemen Arayın
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <a href="#" class="btn btn-outline-light btn-lg btn-block" style="border-radius: 8px; padding: 15px; font-weight: 500;">
+                                        <i class="icon-calendar mr-2"></i>Randevu Alın
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ek Bilgi -->
+                        <div class="cta-features mt-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="icon-shield mr-2"></i>
+                                        <span>%100 Güvenli İşlem</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-bolt mr-2"></i>
+                                        <span>Hızlı Sonuçlandırma</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="icon-headphones mr-2"></i>
+                                        <span>7/24 Destek</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

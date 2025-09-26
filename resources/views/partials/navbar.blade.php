@@ -23,13 +23,13 @@
                     <a href="{{ route('services.index') }}" class="nav-link">Hizmetlerimiz</a>
                 </li>
                 <li class="nav-item {{ Request::is('blog*') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="{{ route('blog.index') }}" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item {{ Request::is('hakkimizda*') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">Hakkımızda</a>
+                    <a href="{{ route('about.us') }}" class="nav-link">Hakkımızda</a>
                 </li>
                 <li class="nav-item {{ Request::is('iletisim*') ? 'active' : '' }}">
-                    <a href="#" class="nav-link">İletişim</a>
+                    <a href="{{ route('contact.index') }}" class="nav-link">İletişim</a>
                 </li>
             </ul>
 
