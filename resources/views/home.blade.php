@@ -154,7 +154,7 @@
         }
     </style>
 
-<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
+<section class="ftco-section ftco-counter" id="section-counter">
     	<div class="container">
     		<div class="row justify-content-center">
     			<div class="col-md-10">
@@ -243,7 +243,7 @@
     </section>
 
     <!-- Blog & Duyurular -->
-    <section class="ftco-section">
+    {{-- <section class="ftco-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
@@ -309,9 +309,44 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
-       <section class="instagram">
+    <div class="container">
+        <div class="row d-flex align-items-stretch">
+                @forelse($blogs as $blog)
+                <div class="col-md-4 d-flex ftco-animate align-items-stretch">
+                    <div class="blog-entry d-flex flex-column w-100" style="border:1px solid #dcdcdc;border-radius:12px;">
+                        <a href="{{ route('blog.show', $blog->slug) }}" class="block-20"
+                        style="background-image: url('{{ $blog->image_url }}'); height:220px; background-size:cover; background-position:center;
+                        border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                        </a>
+
+                        <div class="text mt-3 d-flex flex-column flex-grow-1" style="padding:10px 15px;">
+                            <div class="posted mb-3 d-flex">
+                                <div class="desc pl-3">
+                                    <span>{{ \Carbon\Carbon::parse($blog->published_at)->locale('tr')->translatedFormat('d F Y') }}</span>
+                                </div>
+                            </div>
+
+                            <h3 class="heading mt-3">
+                                <a href="{{ route('blog.show', $blog->slug) }}">{{ $blog->title }}</a>
+                            </h3>
+
+                            <p class="mb-0">{{ $blog->excerpt }}</p>
+
+                            <p class="mt-auto pt-3">
+                                <a href="{{ route('blog.show', $blog->slug) }}" class="btn btn-primary bg-white" style="color: #2c3e50;border-color:#2c3e50;">Devamını Oku</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                @empty
+                <!-- ... -->
+                @endforelse
+        </div>
+    </div>
+
+    <section class="instagram">
       <div class="container-fluid">
         <div class="row no-gutters justify-content-center pb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">

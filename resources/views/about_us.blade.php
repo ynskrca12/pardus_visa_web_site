@@ -121,7 +121,7 @@
             <div class="col-md-6 ftco-animate">
                 <div class="value-item d-flex mb-4">
                     <div class="icon mr-3">
-                        <i class="fas fa-shield-alt fa-2x text-primary"></i>
+                        <i class="fas fa-shield-alt fa-2x" style="color: #2c3e50;"></i>
                     </div>
                     <div>
                         <h5>Güvenilirlik</h5>
@@ -133,7 +133,7 @@
             <div class="col-md-6 ftco-animate">
                 <div class="value-item d-flex mb-4">
                     <div class="icon mr-3">
-                        <i class="fas fa-clock fa-2x text-primary"></i>
+                        <i class="fas fa-clock fa-2x" style="color: #2c3e50;"></i>
                     </div>
                     <div>
                         <h5>Hızlı Hizmet</h5>
@@ -145,7 +145,7 @@
             <div class="col-md-6 ftco-animate">
                 <div class="value-item d-flex mb-4">
                     <div class="icon mr-3">
-                        <i class="fas fa-users fa-2x text-primary"></i>
+                        <i class="fas fa-users fa-2x" style="color: #2c3e50;"></i>
                     </div>
                     <div>
                         <h5>Uzman Kadro</h5>
@@ -157,7 +157,7 @@
             <div class="col-md-6 ftco-animate">
                 <div class="value-item d-flex mb-4">
                     <div class="icon mr-3">
-                        <i class="fas fa-heart fa-2x text-primary"></i>
+                        <i class="fas fa-heart fa-2x" style="color: #2c3e50;"></i>
                     </div>
                     <div>
                         <h5>Müşteri Memnuniyeti</h5>
@@ -170,30 +170,30 @@
 </section>
 
 <!-- Stats Section -->
-<section class="ftco-section bg-primary text-white">
+<section class="ftco-section text-white" style="background: linear-gradient(135deg, #2c3e50, #34495e) !important;">
     <div class="container">
         <div class="row">
             <div class="col-md-3 text-center ftco-animate">
                 <div class="stat-item">
-                    <h2 class="counter">25</h2>
+                    <h2 class="counter text-white">25</h2>
                     <p>Yıl Deneyim</p>
                 </div>
             </div>
             <div class="col-md-3 text-center ftco-animate">
                 <div class="stat-item">
-                    <h2 class="counter">10247</h2>
+                    <h2 class="counter text-white">10247</h2>
                     <p>Başarılı Vize</p>
                 </div>
             </div>
             <div class="col-md-3 text-center ftco-animate">
                 <div class="stat-item">
-                    <h2 class="counter">180</h2>
+                    <h2 class="counter text-white">180</h2>
                     <p>Ülke Vizesi</p>
                 </div>
             </div>
             <div class="col-md-3 text-center ftco-animate">
                 <div class="stat-item">
-                    <h2 class="counter">95</h2>
+                    <h2 class="counter text-white">95</h2>
                     <p>% Başarı Oranı</p>
                 </div>
             </div>
@@ -215,7 +215,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="team-member text-center">
                     <div class="team-img mb-3">
-                        <img src="{{ asset('images/team1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
+                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
                     </div>
                     <h5>Mehmet Yılmaz</h5>
                     <p class="text-muted">Genel Müdür</p>
@@ -226,7 +226,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="team-member text-center">
                     <div class="team-img mb-3">
-                        <img src="{{ asset('images/team2.jpg') }}" class="img-fluid rounded-circle" alt="Ayşe Demir" style="width: 150px; height: 150px; object-fit: cover;">
+                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Ayşe Demir" style="width: 150px; height: 150px; object-fit: cover;">
                     </div>
                     <h5>Ayşe Demir</h5>
                     <p class="text-muted">Vize Uzmanı</p>
@@ -237,7 +237,7 @@
             <div class="col-md-4 ftco-animate">
                 <div class="team-member text-center">
                     <div class="team-img mb-3">
-                        <img src="{{ asset('images/team3.jpg') }}" class="img-fluid rounded-circle" alt="Can Özkan" style="width: 150px; height: 150px; object-fit: cover;">
+                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Can Özkan" style="width: 150px; height: 150px; object-fit: cover;">
                     </div>
                     <h5>Can Özkan</h5>
                     <p class="text-muted">Kurumsal Satış Müdürü</p>
@@ -248,25 +248,59 @@
     </div>
 </section>
 
-<!-- CTA Section -->
-<section class="ftco-section bg-light">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h2 class="mb-4">Seyahat Planlarınızı Gerçekleştirin</h2>
-                <p class="mb-4">Uzman ekibimizle hayalinizdeki seyahati planlayın. Vize işlemlerinden uçak biletine kadar her şey için buradayız.</p>
-                <div>
-                    <a href="#" class="btn btn-primary btn-lg mr-3">
-                        <i class="fas fa-phone mr-2"></i>Ücretsiz Danışmanlık
-                    </a>
-                    <a href="{{ route('visa-types.visa_types_index') }}" class="btn btn-outline-primary btn-lg">
-                        <i class="fas fa-passport mr-2"></i>Vize Türleri
-                    </a>
+  <!-- CTA Bölümü -->
+    <section class="ftco-section" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white; padding: 80px 0;">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-10">
+                    <div class="cta-content">
+                        <h2 class="mb-4 text-white" style="font-size: 2.5em; font-weight: 600;">Seyahat Planlarınızı Gerçekleştirin</h2>
+                        <p class="mb-4" style="font-size: 18px; opacity: 0.9; max-width: 600px; margin: 0 auto;">
+                            Uzman ekibimizle hayalinizdeki seyahati planlayın. Vize işlemlerinden uçak biletine kadar her şey için buradayız.
+                        </p>
+                        <div class="cta-buttons">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <a href="#" class="btn btn-outline-light btn-lg btn-block" style=" border-radius: 8px; padding: 15px; font-weight: 500;">
+                                        <i class="icon-phone mr-2"></i>Hemen Arayın
+                                    </a>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <a href="#" class="btn btn-outline-light btn-lg btn-block" style="border-radius: 8px; padding: 15px; font-weight: 500;">
+                                        <i class="icon-calendar mr-2"></i>Randevu Alın
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Ek Bilgi -->
+                        <div class="cta-features mt-5">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="icon-shield mr-2"></i>
+                                        <span>%100 Güvenli İşlem</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="fas fa-bolt mr-2"></i>
+                                        <span>Hızlı Sonuçlandırma</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 mb-3">
+                                    <div class="feature-item d-flex align-items-center justify-content-center">
+                                        <i class="icon-headphones mr-2"></i>
+                                        <span>7/24 Destek</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 @endsection
 
