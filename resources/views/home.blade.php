@@ -50,9 +50,8 @@
                             %100 destek veriyoruz.</p>
                         <p>Amacımız, seyahatinizin ilk adımı olan vize işlemlerinde süreci sizin için en kolay hale getirmek.</p>
                         <ul class="ftco-social d-flex">
-                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.facebook.com/travellinesturizm"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.instagram.com/travellinesturizm/"><span class="icon-instagram"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -211,6 +210,9 @@
                         <div class="item">
                             <div class="testimony-wrap py-4 pb-5">
                                 <div class="text text-center">
+                                    <div class="team-img mb-3 d-flex justify-content-center">
+                                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
+                                    </div>
                                     <p class="mb-4">Schengen vizem için çok hızlı destek aldım. Evraklarımı kontrol edip
                                         süreci kolaylaştırdılar. Teşekkürler!</p>
                                     <p class="name">Ahmet K.</p>
@@ -221,6 +223,9 @@
                         <div class="item">
                             <div class="testimony-wrap py-4 pb-5">
                                 <div class="text text-center">
+                                    <div class="team-img mb-3 d-flex justify-content-center">
+                                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
+                                    </div>
                                     <p class="mb-4">ABD öğrenci vizemde her aşamada yanımda oldular. Profesyonel bir ekip!</p>
                                     <p class="name">Elif D.</p>
                                     <span class="position">Müşteri</span>
@@ -230,6 +235,9 @@
                         <div class="item">
                             <div class="testimony-wrap py-4 pb-5">
                                 <div class="text text-center">
+                                    <div class="team-img mb-3 d-flex justify-content-center">
+                                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
+                                    </div>
                                     <p class="mb-4">Dubai vizem için hızlıca işlem yaptılar, 3 günde vizem çıktı.</p>
                                     <p class="name">Murat Y.</p>
                                     <span class="position">Müşteri</span>

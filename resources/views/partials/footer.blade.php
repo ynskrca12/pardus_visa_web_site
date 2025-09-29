@@ -20,8 +20,8 @@
                     <h2 class="ftco-heading-2">Hizmetler</h2>
                     <ul class="list-unstyled">
                         <li><a href="#" class="py-2 d-block">Vize Başvuruları</a></li>
-                        <li><a href="#" class="py-2 d-block">Tur Paketleri</a></li>
-                        <li><a href="#" class="py-2 d-block">Sık Sorulan Sorular</a></li>
+                        <li><a href="#" class="py-2 d-block">Kurumsal Seyahat</a></li>
+                        <li><a href="#" class="py-2 d-block">Kurumsal Uçak Bileti</a></li>
                         <li><a href="#" class="py-2 d-block">Blog</a></li>
                     </ul>
                 </div>
@@ -32,10 +32,10 @@
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">Kurumsal</h2>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="py-2 d-block">Hakkımızda</a></li>
-                        <li><a href="#" class="py-2 d-block">Kariyer</a></li>
-                        <li><a href="#" class="py-2 d-block">İletişim</a></li>
-                        <li><a href="#" class="py-2 d-block">KVKK & Gizlilik</a></li>
+                        <li><a href="{{ route('about.us') }}" class="py-2 d-block">Hakkımızda</a></li>
+                        <li><a href="{{ route('visa-types.visa_types_index') }}" class="py-2 d-block">Vize Türleri</a></li>
+                        <li><a href="{{ route('contact.index') }}" class="py-2 d-block">İletişim</a></li>
+                        <li><a href="{{ route('services.index') }}" class="py-2 d-block">Hizmetlerimiz</a></li>
                     </ul>
                 </div>
             </div>

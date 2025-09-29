@@ -19,4 +19,9 @@ class HomeController extends Controller
 
         return view('home', compact('blogs', 'featuredBlogs', 'recentBlogs'));
     }
+
+    public function sozlesme()
+    {
+        return view('sozlesme');
+    }
 }

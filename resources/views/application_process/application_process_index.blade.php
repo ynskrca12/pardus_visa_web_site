@@ -39,7 +39,7 @@
             <div class="process-steps">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="step-card text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%; position: relative;">
+                        <div class="step-card text-center p-4" style="background: white; border-radius: 42px; border:1px solid #dcdcdc; height: 100%; position: relative;">
                             <div class="step-number" style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); width: 40px; height: 40px; background: #2c3e50; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px;">1</div>
                             <div style="margin-top: 30px;">
                                 <i class="fas fa-phone fa-3x mb-3" style="color: #2c3e50;"></i>
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="step-card text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%; position: relative;">
+                        <div class="step-card text-center p-4" style="background: white; border-radius: 42px; border:1px solid #dcdcdc; height: 100%; position: relative;">
                             <div class="step-number" style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); width: 40px; height: 40px; background: #2c3e50; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px;">2</div>
                             <div style="margin-top: 30px;">
                                 <i class="fas fa-file-alt fa-3x mb-3" style="color: #2c3e50;"></i>
@@ -61,7 +61,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="step-card text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%; position: relative;">
+                        <div class="step-card text-center p-4" style="background: white; border-radius: 42px; border:1px solid #dcdcdc; height: 100%; position: relative;">
                             <div class="step-number" style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); width: 40px; height: 40px; background: #2c3e50; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px;">3</div>
                             <div style="margin-top: 30px;">
                                 <i class="fas fa-calendar-check fa-3x mb-3" style="color: #2c3e50;"></i>
@@ -72,7 +72,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="step-card text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%; position: relative;">
+                        <div class="step-card text-center p-4" style="background: white; border-radius: 42px; border:1px solid #dcdcdc; height: 100%; position: relative;">
                             <div class="step-number" style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); width: 40px; height: 40px; background: #2c3e50; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px;">4</div>
                             <div style="margin-top: 30px;">
                                 <i class="fas fa-hand-paper fa-3x mb-3" style="color: #2c3e50;"></i>
@@ -83,7 +83,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="step-card text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%; position: relative;">
+                        <div class="step-card text-center p-4" style="background: white; border-radius: 42px; border:1px solid #dcdcdc; height: 100%; position: relative;">
                             <div class="step-number" style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); width: 40px; height: 40px; background: #2c3e50; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px;">5</div>
                             <div style="margin-top: 30px;">
                                 <i class="fas fa-search fa-3x mb-3" style="color: #2c3e50;"></i>
@@ -94,7 +94,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="step-card text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%; position: relative;">
+                        <div class="step-card text-center p-4" style="background: white; border-radius: 42px; border:1px solid #dcdcdc; height: 100%; position: relative;">
                             <div class="step-number" style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); width: 40px; height: 40px; background: #28a745; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 18px;">6</div>
                             <div style="margin-top: 30px;">
                                 <i class="fas fa-check-circle fa-3x mb-3" style="color: #28a745;"></i>
@@ -187,8 +187,8 @@
 
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="document-category p-4" style="background: white; border-radius: 12px; border-left: 4px solid #2c3e50; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
-                        <h5 class="mb-3" style="color: #2c3e50;">Kişisel Belgeler</h5>
+                    <div class="document-category p-4 text-center" style="background: white; border-radius:42px;border:1px solid #dcdcdc;">
+                        <h5 class="mb-3 fw-600" style="color: #2c3e50;">Kişisel Belgeler</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">✓ Pasaport (en az 6 ay geçerli)</li>
                             <li class="mb-2">✓ Vize başvuru formu</li>
@@ -200,8 +200,8 @@
                 </div>
 
                 <div class="col-md-6 mb-4">
-                    <div class="document-category p-4" style="background: white; border-radius: 12px; border-left: 4px solid #28a745; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
-                        <h5 class="mb-3" style="color: #2c3e50;">Mali Belgeler</h5>
+                    <div class="document-category p-4 text-center" style="background: white; border-radius: 42px;border:1px solid #dcdcdc;">
+                        <h5 class="mb-3 fw-600" style="color: #2c3e50;">Mali Belgeler</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">✓ Banka hesap özeti (3-6 ay)</li>
                             <li class="mb-2">✓ Maaş bordrosu</li>
@@ -213,8 +213,8 @@
                 </div>
 
                 <div class="col-md-6 mb-4">
-                    <div class="document-category p-4" style="background: white; border-radius: 12px; border-left: 4px solid #ffc107; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
-                        <h5 class="mb-3" style="color: #2c3e50;">Seyahat Belgeleri</h5>
+                    <div class="document-category p-4 text-center" style="background: white; border-radius: 42px;border:1px solid #dcdcdc;">
+                        <h5 class="mb-3 fw-600" style="color: #2c3e50;">Seyahat Belgeleri</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">✓ Uçak bileti rezervasyonu</li>
                             <li class="mb-2">✓ Otel rezervasyonu</li>
@@ -226,8 +226,8 @@
                 </div>
 
                 <div class="col-md-6 mb-4">
-                    <div class="document-category p-4" style="background: white; border-radius: 12px; border-left: 4px solid #dc3545; box-shadow: 0 5px 20px rgba(0,0,0,0.08);">
-                        <h5 class="mb-3" style="color: #2c3e50;">Özel Durumlar</h5>
+                    <div class="document-category p-4 text-center" style="background: white; border-radius: 42px;border:1px solid #dcdcdc;">
+                        <h5 class="mb-3 fw-600" style="color: #2c3e50;">Özel Durumlar</h5>
                         <ul class="list-unstyled">
                             <li class="mb-2">✓ Öğrenci belgesi (öğrenci vizesi)</li>
                             <li class="mb-2">✓ İş davetiyesi (iş vizesi)</li>

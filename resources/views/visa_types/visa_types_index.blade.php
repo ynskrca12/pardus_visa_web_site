@@ -93,7 +93,7 @@
                 <div class="col-lg-4 col-md-6 ftco-animate mb-4">
                     <div class="visa-card" style="background: white; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column;">
                         <div class="visa-image" style="position: relative; height: 200px; overflow: hidden;">
-                            <img src="images/tourist_visa.jpg" alt="{{ $visaType['title'] }}"
+                            <img src="{{ asset($visaType['image']) }}" alt="{{ $visaType['title'] }}"
                                  style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
                             <div class="visa-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(248,182,0,0.8), rgba(248,182,0,0.6)); opacity: 0; transition: opacity 0.3s ease;">
                                 <div class="d-flex align-items-center justify-content-center h-100">

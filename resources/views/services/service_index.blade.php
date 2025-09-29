@@ -115,7 +115,7 @@
     </section>
 
     <!-- Additional Services -->
-    <section class="ftco-section" style="background: #f8f9fa; padding: 60px 0;">
+    <section class="ftco-section py-5">
         <div class="container">
             <div class="row justify-content-center mb-5">
                 <div class="col-md-8 text-center">
@@ -126,15 +126,15 @@
 
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="additional-service text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%;">
-                        <i class="fas fa-shield-alt fa-3x mb-3 " style="color: #2c3e50;"></i>
+                    <div class="additional-service text-center p-4" style="background: white;height: 100%;">
+                        <i class="fas fa-shield-alt fa-3x mb-3" style="color: #2c3e50;"></i>
                         <h5 style="font-weight: 600; color: #2c3e50;">Seyahat Sigortası</h5>
                         <p class="text-muted">Kapsamlı sağlık ve seyahat güvencesi</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="additional-service text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%;">
+                    <div class="additional-service text-center p-4" style="background: white;height: 100%;">
                         <i class="fas fa-car fa-3x mb-3 " style="color: #2c3e50;"></i>
                         <h5 style="font-weight: 600; color: #2c3e50;">Havaalanı Transfer</h5>
                         <p class="text-muted">VIP araç ile konforlu transfer</p>
@@ -142,7 +142,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="additional-service text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%;">
+                    <div class="additional-service text-center p-4" style="background: white;height: 100%;">
                         <i class="fas fa-bed fa-3x mb-3 " style="color: #2c3e50;"></i>
                         <h5 style="font-weight: 600; color: #2c3e50;">Otel Rezervasyonu</h5>
                         <p class="text-muted">Dünya çapında konaklama çözümleri</p>
@@ -150,7 +150,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="additional-service text-center p-4" style="background: white; border-radius: 12px; border:1px solid #dcdcdc; height: 100%;">
+                    <div class="additional-service text-center p-4" style="background: white;height: 100%;">
                         <i class="fas fa-headset fa-3x mb-3 " style="color: #2c3e50;"></i>
                         <h5 style="font-weight: 600; color: #2c3e50;">Seyahat Danışmanlığı</h5>
                         <p class="text-muted">Uzman rehberlik ve öneriler</p>
@@ -170,7 +170,7 @@
 
                     <div class="advantages">
                         <div class="advantage-item d-flex align-items-start mb-3">
-                            <div class="advantage-icon mr-3" style="background: #007bff; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <div class="advantage-icon mr-3" style="background: #2c3e50; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                 <i class="fas fa-award"></i>
                             </div>
                             <div>
@@ -180,7 +180,7 @@
                         </div>
 
                         <div class="advantage-item d-flex align-items-start mb-3">
-                            <div class="advantage-icon mr-3" style="background: #28a745; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <div class="advantage-icon mr-3" style="background: #2c3e50; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                 <i class="fas fa-check-circle"></i>
                             </div>
                             <div>
@@ -190,7 +190,7 @@
                         </div>
 
                         <div class="advantage-item d-flex align-items-start mb-3">
-                            <div class="advantage-icon mr-3" style="background: #ffc107; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <div class="advantage-icon mr-3" style="background: #2c3e50; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                 <i class="fas fa-clock"></i>
                             </div>
                             <div>
@@ -200,7 +200,7 @@
                         </div>
 
                         <div class="advantage-item d-flex align-items-start">
-                            <div class="advantage-icon mr-3" style="background: #dc3545; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <div class="advantage-icon mr-3" style="background: #2c3e50; color: white; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
                                 <i class="fas fa-globe"></i>
                             </div>
                             <div>
@@ -212,30 +212,30 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div class="stats-container" style="background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 15px; padding: 40px; color: white;">
+                    <div class="stats-container p-4" style=" color: white;">
                         <div class="row text-center">
                             <div class="col-6 mb-4">
                                 <div class="stat-item">
-                                    <div class="h1 mb-2 text-white" style="font-weight: 700;">50K+</div>
-                                    <p class="mb-0">Mutlu Müşteri</p>
+                                    <div class="h1 mb-2" style="font-weight: 700;">50K+</div>
+                                    <p class="mb-0 text-dark">Mutlu Müşteri</p>
                                 </div>
                             </div>
                             <div class="col-6 mb-4">
                                 <div class="stat-item">
-                                    <div class="h1 mb-2 text-white" style="font-weight: 700;">180+</div>
-                                    <p class="mb-0">Ülke Hizmeti</p>
+                                    <div class="h1 mb-2" style="font-weight: 700;">180+</div>
+                                    <p class="mb-0 text-dark">Ülke Hizmeti</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="stat-item">
-                                    <div class="h1 mb-2 text-white" style="font-weight: 700;">%95</div>
-                                    <p class="mb-0">Vize Başarısı</p>
+                                    <div class="h1 mb-2" style="font-weight: 700;">%95</div>
+                                    <p class="mb-0 text-dark">Vize Başarısı</p>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="stat-item">
-                                    <div class="h1 mb-2 text-white" style="font-weight: 700;">25</div>
-                                    <p class="mb-0">Yıl Deneyim</p>
+                                    <div class="h1 mb-2" style="font-weight: 700;">25</div>
+                                    <p class="mb-0 text-dark">Yıl Deneyim</p>
                                 </div>
                             </div>
                         </div>

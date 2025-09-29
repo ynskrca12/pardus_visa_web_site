@@ -37,22 +37,22 @@
 
             <div class="row">
                 <div class="col-md-4 mb-4 text-center">
-                    <div class="service-box p-4" style="background: white; border-radius: 10px; border:1px solid #dcdcdc; height: 100%;">
-                        <i class="fas fa-passport fa-3x mb-3" style="color: #2c3e50;"></i>
+                    <div class="service-box p-4" style="background: white; border-radius: 40px; border:1px solid #dcdcdc; height: 100%;">
+                        <i class="fas fa-passport fa-3x mb-3 mt-1" style="color: #2c3e50;"></i>
                         <h5 style="font-weight: 600; color: #2c3e50;">Vize Hizmetleri</h5>
                         <p class="text-muted">Turistik, iş, öğrenci ve transit vize başvuruları için tam destek</p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4 text-center">
-                    <div class="service-box p-4" style="background: white; border-radius: 10px; border:1px solid #dcdcdc; height: 100%;">
-                        <i class="fas fa-briefcase fa-3x mb-3" style="color: #2c3e50;"></i>
+                    <div class="service-box p-4" style="background: white; border-radius: 40px; border:1px solid #dcdcdc; height: 100%;">
+                        <i class="fas fa-briefcase fa-3x mb-3 mt-1" style="color: #2c3e50;"></i>
                         <h5 style="font-weight: 600; color: #2c3e50;">Kurumsal Seyahat</h5>
                         <p class="text-muted">Şirketler için özel vize çözümleri ve toplu başvuru hizmetleri</p>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4 text-center">
-                    <div class="service-box p-4" style="background: white; border-radius: 10px; border:1px solid #dcdcdc; height: 100%;">
-                        <i class="fas fa-plane fa-3x mb-3" style="color: #2c3e50;"></i>
+                    <div class="service-box p-4" style="background: white; border-radius: 40px; border:1px solid #dcdcdc; height: 100%;">
+                        <i class="fas fa-plane fa-3x mb-3 mt-1" style="color: #2c3e50;"></i>
                         <h5 style="font-weight: 600; color: #2c3e50;">Uçak Bileti</h5>
                         <p class="text-muted">En uygun fiyatlı uçak bileti rezervasyonu ve seyahat planlaması</p>
                     </div>
@@ -119,9 +119,9 @@
 
                         @foreach($europeCountries as $country)
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                            <div class="country-item p-3 border rounded" style="background: white; transition: all 0.2s ease;">
+                            <div class="country-item p-3 border" style="background: white; transition: all 0.2s ease;border-radius: 12px;">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span style="font-weight: 500;">{{ $country }}</span>
+                                    <span style="font-weight: 500;color: #2c3e50;">{{ $country }}</span>
                                     <small class="text-muted">Schengen</small>
                                 </div>
                             </div>
@@ -143,9 +143,9 @@
 
                         @foreach($americaCountries as $country)
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                            <div class="country-item p-3 border rounded" style="background: white; transition: all 0.2s ease;">
+                            <div class="country-item p-3 border" style="background: white; transition: all 0.2s ease;border-radius: 12px;">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span style="font-weight: 500;">{{ $country }}</span>
+                                    <span style="font-weight: 500;color: #2c3e50;">{{ $country }}</span>
                                     <small class="text-muted">
                                         @if($country == 'ABD') B1/B2
                                         @elseif($country == 'Kanada') Ziyaretçi
@@ -173,9 +173,9 @@
 
                         @foreach($asiaCountries as $country)
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                            <div class="country-item p-3 border rounded" style="background: white; transition: all 0.2s ease;">
+                            <div class="country-item p-3 border" style="background: white; transition: all 0.2s ease;border-radius: 12px;">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span style="font-weight: 500;">{{ $country }}</span>
+                                    <span style="font-weight: 500;color: #2c3e50;">{{ $country }}</span>
                                     <small class="text-muted">
                                         @if($country == 'Çin') L Visa
                                         @elseif($country == 'Hindistan') e-Tourist
@@ -200,9 +200,9 @@
 
                         @foreach($oceaniaCountries as $country)
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                            <div class="country-item p-3 border rounded" style="background: white; transition: all 0.2s ease;">
+                            <div class="country-item p-3 border" style="background: white; transition: all 0.2s ease;border-radius: 12px;">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span style="font-weight: 500;">{{ $country }}</span>
+                                    <span style="font-weight: 500;color: #2c3e50;">{{ $country }}</span>
                                     <small class="text-muted">Visitor</small>
                                 </div>
                             </div>
@@ -224,9 +224,9 @@
 
                         @foreach($africaCountries as $country)
                         <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
-                            <div class="country-item p-3 border rounded" style="background: white; transition: all 0.2s ease;">
+                            <div class="country-item p-3 border" style="background: white; transition: all 0.2s ease;border-radius: 12px;">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span style="font-weight: 500;">{{ $country }}</span>
+                                    <span style="font-weight: 500;color: #2c3e50;">{{ $country }}</span>
                                     <small class="text-muted">Tourist</small>
                                 </div>
                             </div>

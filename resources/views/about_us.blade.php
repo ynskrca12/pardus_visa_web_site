@@ -64,7 +64,7 @@
 </section>
 
 <!-- Services Section -->
-<section class="ftco-section bg-light">
+<section class="ftco-section p-0 my-3">
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-md-8 text-center">
@@ -75,9 +75,9 @@
 
         <div class="row">
             <div class="col-md-4 ftco-animate">
-                <div class="service-box text-center p-4 bg-white h-100" style="border: 1px solid #dcdcdc;border-radius: 15px;">
+                <div class="service-box text-center p-4 h-100" style="border: 1px solid #dcdcdc;border-radius: 45px;">
                     <div class="icon mb-3">
-                        <i class="fas fa-passport fa-3x" style="color: #2c3e50;"></i>
+                        <i class="fas fa-passport fa-3x mt-2" style="color: #2c3e50;"></i>
                     </div>
                     <h4>Vize Danışmanlığı</h4>
                     <p>180+ ülke için profesyonel vize başvuru hizmeti. Belge hazırlama, randevu alma ve takip süreçleri.</p>
@@ -85,9 +85,9 @@
             </div>
 
             <div class="col-md-4 ftco-animate">
-                <div class="service-box text-center p-4 bg-white h-100" style="border: 1px solid #dcdcdc;border-radius: 15px;">
+                <div class="service-box text-center p-4 h-100" style="border: 1px solid #dcdcdc;border-radius: 45px;">
                     <div class="icon mb-3">
-                        <i class="fas fa-plane fa-3x" style="color: #2c3e50;"></i>
+                        <i class="fas fa-plane fa-3x mt-2" style="color: #2c3e50;"></i>
                     </div>
                     <h4>Uçak Bileti</h4>
                     <p>Dünya genelinde en uygun fiyatlı uçak biletleri. Online rezervasyon ve 7/24 müşteri desteği.</p>
@@ -95,9 +95,9 @@
             </div>
 
             <div class="col-md-4 ftco-animate">
-                <div class="service-box text-center p-4 bg-white h-100" style="border: 1px solid #dcdcdc;border-radius: 15px;">
+                <div class="service-box text-center p-4 h-100" style="border: 1px solid #dcdcdc;border-radius: 45px;">
                     <div class="icon mb-3">
-                        <i class="fas fa-briefcase fa-3x" style="color: #2c3e50;"></i>
+                        <i class="fas fa-briefcase fa-3x mt-2" style="color: #2c3e50;"></i>
                     </div>
                     <h4>Kurumsal Seyahat</h4>
                     <p>Şirketler için özel seyahat çözümleri. Toplantı organizasyonu, grup rezervasyonları ve raporlama.</p>

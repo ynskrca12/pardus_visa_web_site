@@ -12,6 +12,7 @@ use App\Http\Controllers\ContactController;
 
 // Ana Sayfa
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/sozlesme', [HomeController::class, 'sozlesme'])->name('sozlesme');
 
 // Vize Türleri - SEO friendly URLs
 Route::prefix('vize-turleri')->name('visa-types.')->group(function () {

@@ -21,7 +21,7 @@ class VisaTypeController extends Controller
                 'validity' => '90 gün',
                 'description' => 'Turistik amaçlı seyahatler için',
                 'route' => 'visa-types.tourist',
-                'image' => 'tourist-visa.jpg',
+                'image' => 'images/tourist_visa.jpg',
                 'features' => [
                     'Tek giriş',
                     'Çoklu giriş seçeneği',
@@ -38,7 +38,7 @@ class VisaTypeController extends Controller
                 'validity' => '180 gün',
                 'description' => 'İş görüşmeleri ve toplantılar için',
                 'route' => 'visa-types.business',
-                'image' => 'business-visa.jpg',
+                'image' => 'images/business_visa.jpg',
                 'features' => [
                     'Çoklu giriş',
                     'Uzun süreli',
@@ -55,7 +55,7 @@ class VisaTypeController extends Controller
                 'validity' => '365 gün',
                 'description' => 'Eğitim amaçlı uzun süreli ikamet',
                 'route' => 'visa-types.student',
-                'image' => 'student-visa.jpg',
+                'image' => 'images/student_visa.jpg',
                 'features' => [
                     'Uzun süreli',
                     'Çalışma izni',
@@ -72,7 +72,7 @@ class VisaTypeController extends Controller
                 'validity' => '30 gün',
                 'description' => 'Aktarma yapmak için kısa süreli',
                 'route' => 'visa-types.transit',
-                'image' => 'transit-visa.jpg',
+                'image' => 'images/transit_visa.jpg',
                 'features' => [
                     'Kısa süreli',
                     'Havalimanı çıkışı',
@@ -89,7 +89,7 @@ class VisaTypeController extends Controller
                 'validity' => '730 gün',
                 'description' => 'Aile üyeleriyle birleşim için',
                 'route' => 'visa-types.family',
-                'image' => 'family-visa.jpg',
+                'image' => 'images/family_visa.jpg',
                 'features' => [
                     'Çok uzun süreli',
                     'Aile desteği',
@@ -106,7 +106,7 @@ class VisaTypeController extends Controller
                 'validity' => '180 gün',
                 'description' => '26 Avrupa ülkesinde serbest dolaşım',
                 'route' => 'visa-types.schengen',
-                'image' => 'schengen-visa.jpg',
+                'image' => 'images/schengen_visa.jpg',
                 'features' => [
                     '26 ülke erişimi',
                     'Çoklu giriş',
