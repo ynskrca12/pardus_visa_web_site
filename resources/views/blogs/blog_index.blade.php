@@ -25,51 +25,6 @@
         </div>
     </div>
 
-    <!-- Featured Blogs Section -->
-    {{-- @if($featuredBlogs->count() > 0)
-    <section class="ftco-section bg-light pt-0">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-8 text-center">
-                    <h2 class="mb-3">Öne Çıkan Yazılar</h2>
-                    <p>En çok okunan ve popüler blog yazılarımız</p>
-                </div>
-            </div>
-
-            <div class="row">
-                @foreach($featuredBlogs as $featured)
-                <div class="col-md-4 d-flex ftco-animate">
-                    <div class="blog-entry align-self-stretch featured-blog">
-                        <a href="{{ route('blog.show', $featured->slug) }}" class="block-20"
-                           style="background-image: url('{{ $featured->image_url }}');">
-                            <div class="featured-badge">
-                                <i class="icon-star"></i>
-                                Öne Çıkan
-                            </div>
-                        </a>
-                        <div class="text mt-3">
-                            <div class="posted mb-3 d-flex">
-                                <div class="img author" style="background-image: url('{{ asset('images/person_2.jpg') }}');"></div>
-                                <div class="desc pl-3">
-                                    <span>{{ $featured->formatted_published_at }}</span>
-                                    <span class="ml-2">{{ $featured->reading_time }}</span>
-                                    <span class="ml-2"><i class="icon-eye"></i> {{ $featured->views }}</span>
-                                </div>
-                            </div>
-                            <h3 class="heading">
-                                <a href="{{ route('blog.show', $featured->slug) }}">{{ $featured->title }}</a>
-                            </h3>
-                            <p>{{ $featured->excerpt }}</p>
-                            <p><a href="{{ route('blog.show', $featured->slug) }}" class="btn btn-primary">Devamını Oku</a></p>
-                        </div>
-                    </div>
-                </div>
-                @endforeach
-            </div>
-        </div>
-    </section>
-    @endif --}}
-
     <!-- All Blogs Section -->
     <section class="ftco-section {{ $featuredBlogs->count() > 0 ? '' : 'bg-light' }}">
         <div class="container">

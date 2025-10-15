@@ -94,7 +94,7 @@
                                     <select class="form-control @error('subject') is-invalid @enderror"
                                             id="subject"
                                             name="subject">
-                                        <option value="">Konu Seçin</option>
+                                        <option value="" selected disabled>Konu Seçin</option>
                                         <option value="visa" {{ old('subject') == 'visa' ? 'selected' : '' }}>Vize Danışmanlığı</option>
                                         <option value="flight" {{ old('subject') == 'flight' ? 'selected' : '' }}>Uçak Bileti</option>
                                         <option value="corporate" {{ old('subject') == 'corporate' ? 'selected' : '' }}>Kurumsal Seyahat</option>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-lg">
+                        <button type="submit" class="btn btn-primary px-4">
                             <i class="fas fa-paper-plane mr-2"></i>Mesaj Gönder
                         </button>
                     </form>
@@ -196,15 +196,8 @@
         <div class="row no-gutters">
             <div class="col-12">
                 <!-- Google Maps Embed iframe -->
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.799!2d28.9784!3d41.0082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAwJzI5LjUiTiAyOMKwNTgnNDIuMiJF!5e0!3m2!1str!2str!4v1647000000000!5m2!1str!2str"
-                    width="100%"
-                    height="400"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96258.2646768344!2d28.90859216544883!3d41.06744565216811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7ec77bcff25%3A0x46031e4c3066cd2c!2sTravellines%20Turizm!5e0!3m2!1str!2str!4v1760528249508!5m2!1str!2str" width="100%"
+                    height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -356,6 +349,21 @@
         margin-bottom: 20px;
     }
 }
+
+.btn-primary {
+    background: #2c3e50 !important;
+    border-color: #2c3e50 !important;
+    color: #fff !important;
+}
+    .btn-primary:hover {
+        background: #fff !important;
+        border-color: #2c3e50 !important;
+        color: #2c3e50 !important;
+    }
+    .form-control {
+            font-size: 14px !important;
+
+    }
 </style>
 
 

@@ -25,19 +25,6 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 ftco-animate order-md-last">
-                <!-- Blog Meta -->
-                {{-- <div class="blog-meta mb-4 p-3">
-                    <div class="d-flex align-items-center">
-                        <div class="mr-3">
-                            <i class="icon-calendar mr-2"></i>{{ \Carbon\Carbon::parse($blog->published_at)->locale('tr')->translatedFormat('d F Y') }}                        </div>
-                        <div class="mr-3">
-                            <i class="icon-clock-o mr-2"></i>{{ $blog->reading_time }}
-                        </div>
-                        <div>
-                            <i class="icon-eye mr-2"></i>{{ $blog->views }} görüntülenme
-                        </div>
-                    </div>
-                </div> --}}
 
                 <!-- Blog Content -->
                 <div class="blog-content">

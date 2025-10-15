@@ -1,6 +1,11 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-        <a class="navbar-brand" href="{{ route('home') }}">PARDUS</a>
+              <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
+            <img src="{{ asset('images/logo.png') }}" 
+                 alt="Travellines Logo" 
+                 style="height: 40px; margin-right: 10px;">
+            <span class="mt-2">PARDUS</span>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menü
         </button>

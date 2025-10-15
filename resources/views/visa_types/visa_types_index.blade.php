@@ -102,9 +102,6 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="visa-price" style="position: absolute; top: 15px; right: 15px; background: #2c3e50; color: white; padding: 8px 15px; border-radius: 20px; font-weight: bold;">
-                                ${{ $visaType['price'] }}
-                            </div>
                         </div>
 
                         <div class="visa-content p-4" style="flex: 1; display: flex; flex-direction: column;">

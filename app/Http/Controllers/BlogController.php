@@ -14,16 +14,18 @@ class BlogController extends Controller
      */
     public function index(Request $request)
     {
-        $query = Blog::published();
+        $query = Blog::query();
 
         // Arama özelliği
         if ($request->has('search') && $request->search) {
             $query->search($request->search);
         }
 
-        $blogs = $query->paginate(8);
-        $featuredBlogs = Blog::published()->featured()->take(3)->get();
+        $blogs = $query->latest()->paginate(8);
+        $featuredBlogs = Blog::published()->get();
         $recentBlogs = Blog::published()->recent(5)->get();
+
+        // dd($blogs);
 
         return view('blogs.blog_index', compact('blogs', 'featuredBlogs', 'recentBlogs'));
     }

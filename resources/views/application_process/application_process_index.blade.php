@@ -136,7 +136,7 @@
                         <div class="benefit-item d-flex align-items-start mb-3">
                             <i class="fas fa-check-circle mr-3 mt-1" style="color: #28a745; font-size: 1.2em;"></i>
                             <div>
-                                <strong>Tam Hizmet:</strong> Vize + uçak bileti + seyahat sigortası tek noktadan.
+                                <strong>Tam Hizmet:</strong> Vize + uçak bileti + seyahat sigortası, konaklama tek noktadan.
                             </div>
                         </div>
                     </div>

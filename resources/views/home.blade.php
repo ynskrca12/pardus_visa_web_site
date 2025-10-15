@@ -11,8 +11,8 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-center">
                     <div class="col-md-12 ftco-animate text-center">
                         <div class="text mb-5 pb-3">
-                            <h1 class="mb-3">Profesyonel Vize Danışmanlığı</h1>
-                            <h2>30+ Ülke için Güvenilir Çözüm</h2>
+                            <h1 class="mb-3">Kurumsal Seyahat ve Vize Hizmetleri</h1>
+                            <h2>Profesyonel Ekibimiz ile Yanınızdayız</h2>
                         </div>
                     </div>
                 </div>
@@ -25,8 +25,8 @@
                 <div class="row no-gutters slider-text align-items-center justify-content-center">
                     <div class="col-md-12 ftco-animate text-center">
                         <div class="text mb-5 pb-3">
-                            <h1 class="mb-3">Hızlı & Güvenli Vize İşlemleri</h1>
-                            <h2>Yanınızdayız</h2>
+                            <h1 class="mb-3">Vize & Uçak Bileti ve Konaklama Hizmetleri</h1>
+                            <h2>Profesyonel Ekibimiz ile Yanınızdayız</h2>
                         </div>
                     </div>
                 </div>
@@ -70,50 +70,86 @@
                 </div>
             </div>
             <div class="row">
-                <!-- 1 -->
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+              {{-- @foreach($visaTypes as $visaType)
+                <div class="col-md-3 mb-3 d-flex align-self-stretch ftco-animate">
                     <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
                         <div class="icon mb-3">
                             <span class="flaticon-passport"></span>
                         </div>
-                        <h3 class="heading mb-3">Schengen Vizesi</h3>
-                        <p>Avrupa seyahatleriniz için eksiksiz evrak hazırlığı ve hızlı başvuru desteği.</p>
-                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
+                        <h3 class="heading mb-3">{{ $visaType['title'] }}</h3>
+                        <p>{{ $visaType['description_summary'] }}</p>
+                        <a href="{{ route($visaType['route']) }}" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
                     </div>
                 </div>
-                <!-- 2 -->
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
-                        <div class="icon mb-3">
-                            <span class="flaticon-airplane"></span>
+              @endforeach --}}
+              @foreach($visaTypes as $visaType)
+                <div class="col-lg-4 col-md-6 ftco-animate mb-4">
+                    <div class="visa-card" style="background: white; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column;">
+                        <div class="visa-image" style="position: relative; height: 200px; overflow: hidden;">
+                            <img src="{{ asset($visaType['image']) }}" alt="{{ $visaType['title'] }}"
+                                 style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                            <div class="visa-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: linear-gradient(45deg, rgba(248,182,0,0.8), rgba(248,182,0,0.6)); opacity: 0; transition: opacity 0.3s ease;">
+                                <div class="d-flex align-items-center justify-content-center h-100">
+                                    <a href="{{ route($visaType['route']) }}" class="btn btn-light btn-lg">
+                                        <i class="icon-eye mr-2"></i>İncele
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="heading mb-3">Amerika Vizesi</h3>
-                        <p>ABD turistik, öğrenci ve iş vizelerinde profesyonel danışmanlık ve randevu desteği.</p>
-                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
-                    </div>
-                </div>
-                <!-- 3 -->
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
-                        <div class="icon mb-3">
-                            <span class="flaticon-global"></span>
+
+                        <div class="visa-content p-4" style="flex: 1; display: flex; flex-direction: column;">
+                            <h3 class="mb-3" style="color: #333; font-weight: 600;">
+                                {{ $visaType['title'] }}
+                            </h3>
+                            <p class="mb-3 text-muted" style="font-size: 14px; line-height: 1.6;">
+                                {{ $visaType['description'] }}
+                            </p>
+
+                            <div class="visa-details mb-3">
+                                <div class="row text-center">
+                                    <div class="col-4">
+                                        <div class="detail-item">
+                                            <i class="fas fa-calendar" style="color: #2c3e50; font-size: 1.2em;"></i>
+                                            <small class="d-block mt-1 text-muted">{{ $visaType['duration'] }}</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="detail-item">
+                                            <i class="icon-calendar" style="color: #2c3e50; font-size: 1.2em;"></i>
+                                            <small class="d-block mt-1 text-muted">{{ $visaType['processing_time'] }}</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="detail-item">
+                                            <i class="icon-check" style="color: #2c3e50; font-size: 1.2em;"></i>
+                                            <small class="d-block mt-1 text-muted">{{ $visaType['validity'] }}</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="visa-features mb-4" style="flex: 1;">
+                                @foreach($visaType['features'] as $index => $feature)
+                                    @if($index < 3)
+                                    <span class="feature-badge" style="display: inline-block; background: #f8f9fa; color: #666; padding: 4px 10px; border-radius: 15px; font-size: 12px; margin: 2px;">
+                                        <i class="icon-check-circle mr-1" style="color: #28a745;"></i>{{ $feature }}
+                                    </span>
+                                    @endif
+                                @endforeach
+                                @if(count($visaType['features']) > 3)
+                                <span class="text-muted" style="font-size: 12px;">+{{ count($visaType['features']) - 3 }} özellik</span>
+                                @endif
+                            </div>
+
+                            <div class="text-center mt-auto">
+                                <a href="{{ route($visaType['route']) }}" class="btn btn-primary btn-block" style="background: #2c3e50; border: none; padding: 12px; border-radius: 6px; font-weight: 500;">
+                                    Detaylı Bilgi Al <i class="icon-arrow-right ml-2"></i>
+                                </a>
+                            </div>
                         </div>
-                        <h3 class="heading mb-3">Asya & Uzak Doğu</h3>
-                        <p>Çin, Japonya, Dubai ve diğer ülkeler için güvenilir ve hızlı işlem desteği.</p>
-                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
                     </div>
                 </div>
-                <!-- 4 -->
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
-                        <div class="icon mb-3">
-                            <span class="flaticon-support"></span>
-                        </div>
-                        <h3 class="heading mb-3">Danışmanlık</h3>
-                        <p>Tüm süreç boyunca birebir takip, evrak kontrolü ve profesyonel yönlendirme.</p>
-                        <a href="#" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
@@ -196,131 +232,8 @@
     	</div>
     </section>
 
-    <!-- Müşteri Yorumları -->
-    <section class="ftco-section testimony-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-md-7 text-center heading-section ftco-animate">
-                    <h2>Müşteri Yorumları</h2>
-                </div>
-            </div>
-            <div class="row ftco-animate">
-                <div class="col-md-12">
-                    <div class="carousel-testimony owl-carousel">
-                        <div class="item">
-                            <div class="testimony-wrap py-4 pb-5">
-                                <div class="text text-center">
-                                    <div class="team-img mb-3 d-flex justify-content-center">
-                                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
-                                    </div>
-                                    <p class="mb-4">Schengen vizem için çok hızlı destek aldım. Evraklarımı kontrol edip
-                                        süreci kolaylaştırdılar. Teşekkürler!</p>
-                                    <p class="name">Ahmet K.</p>
-                                    <span class="position">Müşteri</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimony-wrap py-4 pb-5">
-                                <div class="text text-center">
-                                    <div class="team-img mb-3 d-flex justify-content-center">
-                                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
-                                    </div>
-                                    <p class="mb-4">ABD öğrenci vizemde her aşamada yanımda oldular. Profesyonel bir ekip!</p>
-                                    <p class="name">Elif D.</p>
-                                    <span class="position">Müşteri</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimony-wrap py-4 pb-5">
-                                <div class="text text-center">
-                                    <div class="team-img mb-3 d-flex justify-content-center">
-                                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
-                                    </div>
-                                    <p class="mb-4">Dubai vizem için hızlıca işlem yaptılar, 3 günde vizem çıktı.</p>
-                                    <p class="name">Murat Y.</p>
-                                    <span class="position">Müşteri</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog & Duyurular -->
-    {{-- <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2>Recent Blog</h2>
-          </div>
-        </div>
-        <div class="row d-flex">
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text mt-3 d-block">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text mt-3">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text mt-3">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_4.jpg');">
-              </a>
-              <div class="text mt-3">
-                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-                <div class="meta mb-3">
-                  <div><a href="#">Dec 6, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> --}}
-
     <div class="container">
-        <div class="row d-flex align-items-stretch">
+        <div class="row d-flex align-items-stretch my-4">
                 @forelse($blogs as $blog)
                 <div class="col-md-4 d-flex ftco-animate align-items-stretch">
                     <div class="blog-entry d-flex flex-column w-100" style="border:1px solid #dcdcdc;border-radius:12px;">
@@ -401,3 +314,11 @@
       </div>
     </section>
 @endsection
+
+<style>
+      .btn-primary:hover {
+        background: #fff !important;
+        border-color: #2c3e50 !important;
+        color: #2c3e50 !important;
+    }
+</style>

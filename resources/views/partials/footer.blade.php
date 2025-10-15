@@ -5,6 +5,12 @@
             <div class="col-md">
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">Pardus Vize & Travellines</h2>
+                      <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
+                        <img src="{{ asset('images/logo.png') }}" 
+                            alt="Travellines Logo" 
+                            class="mb-2"
+                            style="height: 40px;margin-left: -7px;">
+                    </a>
                     <p>20 yılı aşkın tecrübemizle, dünya genelinde vize danışmanlığı ve turizm hizmetlerinde güvenilir çözüm ortağınız.</p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         {{-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li> --}}

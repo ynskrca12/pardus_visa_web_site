@@ -201,53 +201,6 @@
     </div>
 </section>
 
-<!-- Team Section -->
-<section class="ftco-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-8 text-center">
-                <h2 class="mb-3">Uzman Ekibimiz</h2>
-                <p>Alanında deneyimli uzmanlardan oluşan güçlü kadromuz</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 ftco-animate">
-                <div class="team-member text-center">
-                    <div class="team-img mb-3">
-                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Mehmet Yılmaz" style="width: 150px; height: 150px; object-fit: cover;">
-                    </div>
-                    <h5>Mehmet Yılmaz</h5>
-                    <p class="text-muted">Genel Müdür</p>
-                    <p>20 yıllık turizm sektörü deneyimi</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 ftco-animate">
-                <div class="team-member text-center">
-                    <div class="team-img mb-3">
-                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Ayşe Demir" style="width: 150px; height: 150px; object-fit: cover;">
-                    </div>
-                    <h5>Ayşe Demir</h5>
-                    <p class="text-muted">Vize Uzmanı</p>
-                    <p>15 yıllık vize danışmanlığı deneyimi</p>
-                </div>
-            </div>
-
-            <div class="col-md-4 ftco-animate">
-                <div class="team-member text-center">
-                    <div class="team-img mb-3">
-                        <img src="{{ asset('images/person1.jpg') }}" class="img-fluid rounded-circle" alt="Can Özkan" style="width: 150px; height: 150px; object-fit: cover;">
-                    </div>
-                    <h5>Can Özkan</h5>
-                    <p class="text-muted">Kurumsal Satış Müdürü</p>
-                    <p>12 yıllık kurumsal seyahat deneyimi</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
   <!-- CTA Bölümü -->
     <section class="ftco-section" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white; padding: 80px 0;">
         <div class="container">

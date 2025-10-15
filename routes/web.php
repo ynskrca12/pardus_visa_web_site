@@ -13,6 +13,7 @@ use App\Http\Controllers\ContactController;
 // Ana Sayfa
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/sozlesme', [HomeController::class, 'sozlesme'])->name('sozlesme');
+Route::get('/cv', [HomeController::class, 'cv'])->name('cv');
 
 // Vize Türleri - SEO friendly URLs
 Route::prefix('vize-turleri')->name('visa-types.')->group(function () {
@@ -23,6 +24,27 @@ Route::prefix('vize-turleri')->name('visa-types.')->group(function () {
     Route::get('/transit-vizesi', [VisaTypeController::class, 'transit'])->name('transit');
     Route::get('/aile-birlesimi-vizesi', [VisaTypeController::class, 'family'])->name('family');
     Route::get('/schengen-vizesi', [VisaTypeController::class, 'schengen'])->name('schengen');
+
+        // Popüler Destinasyon Vizeleri
+    Route::get('/dubai-vizesi', [VisaTypeController::class, 'dubai'])->name('dubai');
+    Route::get('/amerika-vizesi', [VisaTypeController::class, 'usa'])->name('usa');
+    Route::get('/ingiltere-vizesi', [VisaTypeController::class, 'uk'])->name('uk');
+    Route::get('/kanada-vizesi', [VisaTypeController::class, 'canada'])->name('canada');
+    Route::get('/rusya-vizesi', [VisaTypeController::class, 'russia'])->name('russia');
+    Route::get('/cin-vizesi', [VisaTypeController::class, 'china'])->name('china');
+    
+    // Ek Popüler Destinasyonlar (isteğe bağlı)
+    Route::get('/avustralya-vizesi', [VisaTypeController::class, 'australia'])->name('australia');
+    Route::get('/japonya-vizesi', [VisaTypeController::class, 'japan'])->name('japan');
+    Route::get('/hindistan-vizesi', [VisaTypeController::class, 'india'])->name('india');
+    Route::get('/misir-vizesi', [VisaTypeController::class, 'egypt'])->name('egypt');
+    Route::get('/tayland-vizesi', [VisaTypeController::class, 'thailand'])->name('thailand');
+    Route::get('/guney-afrika-vizesi', [VisaTypeController::class, 'south_africa'])->name('south_africa');
+    Route::get('/yeni-zelanda-vizesi', [VisaTypeController::class, 'new_zealand'])->name('new_zealand');
+    Route::get('/singapur-vizesi', [VisaTypeController::class, 'singapore'])->name('singapore');
+    Route::get('/guney-kore-vizesi', [VisaTypeController::class, 'south_korea'])->name('south_korea');
+    Route::get('/brezilya-vizesi', [VisaTypeController::class, 'brazil'])->name('brazil');
+    
 });
 
 // Ülkeler - Her ülke için SEO friendly URL
