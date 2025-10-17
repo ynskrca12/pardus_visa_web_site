@@ -849,9 +849,6 @@
 .icon-spinner:before {
   content: "\f110";
 }
-.icon-circle:before {
-  content: "\f111";
-}
 .icon-mail-reply:before {
   content: "\f112";
 }

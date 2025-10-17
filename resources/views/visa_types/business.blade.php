@@ -9,7 +9,7 @@
     <div class="hero-wrap" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('{{ asset('images/visa_banner.jpg') }}'); background-size: cover; background-position: center;">
         <div class="container">
             <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
-                <div class="col-md-10 ftco-animate text-center d-flex align-items-end justify-content-center">
+                <div class="col-md-10  text-center d-flex align-items-end justify-content-center" data-aos="fade-up">
                     <div class="text">
                         <p class="breadcrumbs mb-2">
                             <span class="mr-2"><a href="{{ route('home') }}" style="color: rgba(255,255,255,0.8);">Ana Sayfa</a></span>
@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <!-- İş Vizesi Tanımı -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <div class="section-header mb-4">
                             <h2 class="mt-3 mb-4" style="font-size: 2.5em; font-weight: 600; color: #2c3e50;">İş Vizesi Nedir?</h2>
                         </div>
@@ -48,7 +48,7 @@
                     </div>
 
                     <!-- İş Vizesi Avantajları -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">İş Vizesi Avantajları</h3>
                         <div class="row">
                             <div class="col-md-6 mb-4">
@@ -91,7 +91,7 @@
                     </div>
 
                     <!-- Kimler Başvurabilir -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">İş Vizesi Kimler İçin Uygundur?</h3>
                         <div class="business-types-grid">
                             <div class="row">
@@ -142,7 +142,7 @@
                     </div>
 
                     <!-- Gerekli Belgeler -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">İş Vizesi Başvurusu İçin Gerekli Belgeler</h3>
                         <div class="documents-container">
                             <div class="row">
@@ -226,7 +226,7 @@
                     </div>
 
                     <!-- SSS -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Sıkça Sorulan Sorular</h3>
                         <div class="faq-container">
                             <div class="accordion" id="businessVisaFAQ">
@@ -295,10 +295,6 @@
                         <div class="card-header text-center py-3" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white;">
                             <h4 class="mb-0 text-white">İş Vizesi</h4>
                         </div>
-                         <div class="price-display mb-3 mt-3">
-                                <span class="h2" style="color: #2c3e50;">$250</span>
-                                <small class="text-muted d-block">başlangıç fiyat</small>
-                            </div>
 
                         <div class="pricing-body p-4">
                             <!-- Vize Özellikleri -->
@@ -423,7 +419,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">5000+</span>
@@ -431,7 +427,7 @@
                         <p class="text-muted mb-0">İş Vizesi Başvurusu</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">%97</span>
@@ -439,7 +435,7 @@
                         <p class="text-muted mb-0">Başarı Oranı</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">8</span>
@@ -447,7 +443,7 @@
                         <p class="text-muted mb-0">Ortalama İşlem Günü</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">500+</span>
@@ -518,6 +514,73 @@
 
 @push('styles')
 <style>
+/* AOS için hazır olma durumu */
+[data-aos] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+}
+
+/* Alternatif: Manuel animasyon */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover Efektleri */
+.advantage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+.business-type-item:hover {
+    border-color: #f8b600 !important;
+    background: #fff8f0 !important;
+    transform: translateY(-2px);
+}
+
+.document-category:hover {
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12) !important;
+}
+
+.counter-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+/* Sticky Sidebar */
+.sticky-top.fixed {
+    position: fixed !important;
+    top: 20px;
+    width: 350px;
+    z-index: 1000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-wrap h1 {
+        font-size: 2.5em !important;
+    }
+
+    .pricing-card {
+        margin-bottom: 30px;
+    }
+
+    .content-section {
+        margin-bottom: 40px !important;
+    }
+}
+</style>
+<style>
 /* Hover Efektleri */
 .advantage-card:hover {
     transform: translateY(-5px);
@@ -571,18 +634,33 @@
     }
 }
 
-/* Sticky Sidebar Düzenleme */
-.sticky-top.fixed {
-    position: fixed !important;
-    top: 20px;
-    width: 350px;
-    z-index: 1000;
-}
+
 </style>
 @endpush
 
 @push('scripts')
 <script>
+
+// Smooth scroll for anchor links
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top - 100
+        }, 1000);
+    }
+});
+</script>
+<script>
+// AOS animasyon başlatma
+AOS.init({
+    duration: 800,
+    easing: 'ease',
+    once: true,
+    offset: 100
+});
+
 // Sticky sidebar fonksiyonu
 $(document).ready(function() {
     var stickyTop = $('.sticky-top').offset().top;

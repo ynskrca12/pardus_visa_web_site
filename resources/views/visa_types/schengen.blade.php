@@ -9,7 +9,7 @@
     <div class="hero-wrap" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('{{ asset('images/visa_banner.jpg') }}'); background-size: cover; background-position: center;">
         <div class="container">
             <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
-                <div class="col-md-10 ftco-animate text-center d-flex align-items-end justify-content-center">
+                <div class="col-md-10 text-center d-flex align-items-end justify-content-center" data-aos="fade-up">
                     <div class="text">
                         <p class="breadcrumbs mb-2">
                             <span class="mr-2"><a href="{{ route('home') }}" style="color: rgba(255,255,255,0.8);">Ana Sayfa</a></span>
@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <!-- Schengen Vizesi Tanımı -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <div class="section-header mb-4">
                             <h2 class="mt-3 mb-4" style="font-size: 2.5em; font-weight: 600; color: #2c3e50;">Schengen Vizesi Nedir?</h2>
                         </div>
@@ -48,7 +48,7 @@
                     </div>
 
                     <!-- Schengen Ülkeleri -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Schengen Bölgesi Ülkeleri</h3>
                         <div class="countries-grid">
                             <div class="row">
@@ -64,7 +64,7 @@
                     </div>
 
                     <!-- Schengen Vizesi Avantajları -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Schengen Vizesi Avantajları</h3>
                         <div class="row">
                             <div class="col-md-6 mb-4">
@@ -107,7 +107,7 @@
                     </div>
 
                     <!-- Kimler Başvurabilir -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Schengen Vizesi Kimler İçin Uygundur?</h3>
                         <div class="business-types-grid">
                             <div class="row">
@@ -158,7 +158,7 @@
                     </div>
 
                     <!-- Gerekli Belgeler -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Schengen Vizesi İçin Gerekli Belgeler</h3>
                         <div class="documents-container">
                             <div class="row">
@@ -242,7 +242,7 @@
                     </div>
 
                     <!-- Başvuru Süreci -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Schengen Vize Başvuru Süreci</h3>
                         <div class="process-steps">
                             @foreach($visaDetails['process_steps'] as $index => $step)
@@ -279,7 +279,7 @@
                     </div>
 
                     <!-- SSS -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Sıkça Sorulan Sorular</h3>
                         <div class="faq-container">
                             <div class="accordion" id="schengenVisaFAQ">
@@ -348,10 +348,6 @@
                         <div class="card-header text-center py-3" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white;">
                             <h4 class="mb-0 text-white">Schengen Vizesi</h4>
                         </div>
-                         <div class="price-display mb-3 mt-3">
-                                <span class="h2" style="color: #2c3e50;">${{ $visaDetails['price'] }}</span>
-                                <small class="text-muted d-block">başlangıç fiyat</small>
-                            </div>
 
                         <div class="pricing-body p-4">
                             <!-- Vize Özellikleri -->
@@ -476,7 +472,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">15000+</span>
@@ -484,7 +480,7 @@
                         <p class="text-muted mb-0">Schengen Vizesi</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">%95</span>
@@ -492,7 +488,7 @@
                         <p class="text-muted mb-0">Onay Oranı</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">12</span>
@@ -500,7 +496,7 @@
                         <p class="text-muted mb-0">Ortalama İşlem Günü</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">26</span>
@@ -620,12 +616,6 @@
     .countries-grid .col-6 {
         padding: 0 5px;
     }
-}
-
-/* Animasyonlar */
-.ftco-animate {
-    opacity: 0;
-    animation: fadeInUp 0.8s ease forwards;
 }
 
 @keyframes fadeInUp {

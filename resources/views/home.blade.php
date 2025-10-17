@@ -33,13 +33,179 @@
             </div>
         </div>
     </section>
+    <!-- Hizmetler bölümünden SONRA, Counter bölümünden ÖNCE ekle -->
+
+<!-- Kurumsal Seyahat -->
+<section class="ftco-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 mt-3 ftco-animate">
+                <img src="{{ asset('images/blog_images/corporate_travel_blog_img-min.jpg') }}" class="img-fluid rounded shadow" alt="Kurumsal Seyahat Yönetimi">
+            </div>
+            <div class="col-md-6 mt-3 ftco-animate pl-md-5">
+                <span class="subheading">Şirketiniz İçin</span>
+                <h2 class="mb-4">Kurumsal Seyahat Yönetimi</h2>
+                <p class="mb-4">İş seyahatlerinizi profesyonel ekibimizle yönetin. Şirketinize özel fiyatlandırma, öncelikli rezervasyon ve 7/24 destek hizmetlerimizle iş seyahatlerinizi kolaylaştırın.</p>
+
+                <div class="row mb-4">
+                    <div class="col-6">
+                        <div class="feature-item mb-3">
+                            <i class="fas fa-briefcase text-primary mr-2"></i>
+                            <strong>İş Seyahatleri</strong>
+                            <p class="text-muted mb-0">Toplantı ve organizasyon desteği</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feature-item mb-3">
+                            <i class="fas fa-users text-primary mr-2"></i>
+                            <strong>Grup Rezervasyonları</strong>
+                            <p class="text-muted mb-0">Ekip seyahatleri için özel fiyat</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feature-item mb-3">
+                            <i class="fas fa-chart-line text-primary mr-2"></i>
+                            <strong>Raporlama</strong>
+                            <p class="text-muted mb-0">Detaylı harcama raporları</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="feature-item mb-3">
+                            <i class="fas fa-headset text-primary mr-2"></i>
+                            <strong>7/24 Destek</strong>
+                            <p class="text-muted mb-0">Kesintisiz müşteri hizmeti</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Uçak Bileti & Konaklama -->
+<section class="ftco-section bg-light">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8 text-center heading-section ftco-animate">
+                <span class="subheading">Seyahat Çözümlerimiz</span>
+                <h2 class="mb-4">Uçak Bileti ve Konaklama Hizmetleri</h2>
+                <p>En uygun fiyatlı uçak biletleri ve dünya genelinde otel rezervasyonları için tek adres</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 ftco-animate">
+                <div class="service-box bg-white p-4 rounded shadow-sm text-center h-100">
+                    <div class="icon mb-3">
+                        <i class="fas fa-plane-departure fa-3x text-primary"></i>
+                    </div>
+                    <h4 class="mb-3">Uçak Bileti</h4>
+                    <p class="mb-3">500+ havayolu şirketi ile dünya genelinde en uygun fiyatlı uçak biletleri. Online rezervasyon ve anında bilet teslimi.</p>
+                    <ul class="list-unstyled text-left mb-4">
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>En İyi Fiyat Garantisi</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>Anında Onay</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>Esnek İptal Seçenekleri</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>7/24 Müşteri Desteği</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 ftco-animate">
+                <div class="service-box bg-white p-4 rounded shadow-sm text-center h-100">
+                    <div class="icon mb-3">
+                        <i class="fas fa-hotel fa-3x text-primary"></i>
+                    </div>
+                    <h4 class="mb-3">Otel Rezervasyonu</h4>
+                    <p class="mb-3">Dünya çapında 1 milyon+ otel seçeneği. Butik otellerden lüks resort'lara kadar geniş konaklama ağımızla hizmetinizdeyiz.</p>
+                    <ul class="list-unstyled text-left mb-4">
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>1M+ Otel Seçeneği</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>Gerçek Müşteri Yorumları</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>Ücretsiz İptal</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>En İyi Fiyat</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 ftco-animate">
+                <div class="service-box bg-white p-4 rounded-3 shadow-sm text-center h-100">
+                    <div class="icon mb-3">
+                        <i class="fas fa-suitcase-rolling fa-3x text-primary"></i>
+                    </div>
+                    <h4 class="mb-3">Paket Turlar</h4>
+                    <p class="mb-3">Uçak + Otel + Transfer dahil ekonomik paket turlar. Popüler destinasyonlara özel fırsatlar ve grup indirimleri.</p>
+                    <ul class="list-unstyled text-left mb-4">
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>All Inclusive Paketler</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>Havalimanı Transferi</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>Rehber Eşliğinde</li>
+                        <li class="mb-2"><i class="fas fa-check text-success mr-2"></i>Grup İndirimleri</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Neden Bizi Seçmelisiniz -->
+  <section class="ftco-section">
+      <div class="container">
+          <div class="row justify-content-center mb-5">
+              <div class="col-md-8 text-center heading-section ftco-animate">
+                  <span class="subheading">Avantajlarımız</span>
+                  <h2 class="mb-4">Neden Pardus Turizm?</h2>
+                  <p>20 yıllık deneyimimiz ve güçlü iş ortaklıklarımızla size en iyi hizmeti sunuyoruz</p>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-md-3 ftco-animate text-center mb-4">
+                  <div class="advantage-box p-4">
+                      <div class="icon-circle mb-3">
+                          <i class="fas fa-shield-alt fa-2x text-white"></i>
+                      </div>
+                      <h5>Güvenli Ödeme</h5>
+                      <p class="text-muted">SSL sertifikalı güvenli ödeme altyapısı</p>
+                  </div>
+              </div>
+
+              <div class="col-md-3 ftco-animate text-center mb-4">
+                  <div class="advantage-box p-4">
+                      <div class="icon-circle mb-3">
+                          <i class="fas fa-tags fa-2x text-white"></i>
+                      </div>
+                      <h5>En İyi Fiyat</h5>
+                      <p class="text-muted">Fiyat farkı iade garantisi</p>
+                  </div>
+              </div>
+
+              <div class="col-md-3 ftco-animate text-center mb-4">
+                  <div class="advantage-box p-4">
+                      <div class="icon-circle mb-3">
+                          <i class="fas fa-clock fa-2x text-white"></i>
+                      </div>
+                      <h5>7/24 Destek</h5>
+                      <p class="text-muted">Her zaman yanınızdayız</p>
+                  </div>
+              </div>
+
+              <div class="col-md-3 ftco-animate text-center mb-4">
+                  <div class="advantage-box p-4">
+                      <div class="icon-circle mb-3">
+                          <i class="fas fa-award fa-2x text-white"></i>
+                      </div>
+                      <h5>20 Yıl Deneyim</h5>
+                      <p class="text-muted">Sektörde güven ve kalite</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
     <!-- Hakkımızda -->
     <section class="ftco-section ftc-no-pb ftc-no-pt">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 p-md-5 img d-flex justify-content-center align-items-center"
-                     style="background-image: url({{ asset('images/img1.jpg') }});">
+                     style="background-image: url({{ asset('images/img2.jpg') }});">
                 </div>
                 <div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
                     <div class="heading-section pt-md-5 pl-md-5 mb-5">
@@ -70,18 +236,6 @@
                 </div>
             </div>
             <div class="row">
-              {{-- @foreach($visaTypes as $visaType)
-                <div class="col-md-3 mb-3 d-flex align-self-stretch ftco-animate">
-                    <div class="service-card d-flex flex-column text-center p-4 shadow-sm">
-                        <div class="icon mb-3">
-                            <span class="flaticon-passport"></span>
-                        </div>
-                        <h3 class="heading mb-3">{{ $visaType['title'] }}</h3>
-                        <p>{{ $visaType['description_summary'] }}</p>
-                        <a href="{{ route($visaType['route']) }}" class="btn btn-sm btn-outline-detail mt-auto">Detaylı Bilgi</a>
-                    </div>
-                </div>
-              @endforeach --}}
               @foreach($visaTypes as $visaType)
                 <div class="col-lg-4 col-md-6 ftco-animate mb-4">
                     <div class="visa-card" style="background: white; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.3s ease; height: 100%; display: flex; flex-direction: column;">
@@ -154,82 +308,47 @@
         </div>
     </section>
 
-    <!-- Özel CSS -->
-    <style>
-        .service-card {
-            background: #fff;
-            border-radius: 12px;
-            transition: all 0.3s ease-in-out;
-            border: 1px solid #eee;
-            min-height: 100%; /* tüm kartlar eşit yükseklikte */
-        }
-        .service-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
-            border-color: #2c3e50;
-        }
-        .service-card .icon {
-            font-size: 40px;
-            color: #2c3e50;
-            transition: all 0.3s ease;
-        }
-        .service-card h3 {
-            font-weight: 600;
-        }
-        .service-card p {
-            font-size: 14px;
-            color: #555;
-            flex-grow: 1; /* açıklama alanı esneyip boşluğu doldursun */
-        }
-        .btn-outline-detail{
-            color: #2c3e50;
-            background-color: transparent;
-            background-image: none;
-            border-color: #2c3e50;
-        }
-    </style>
-
-<section class="ftco-section ftco-counter" id="section-counter">
-    	<div class="container">
-    		<div class="row justify-content-center">
-    			<div class="col-md-10">
-		    		<div class="row">
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="10000">0</strong>
-		                <span>Mutlu Müşteri</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="100">0</strong>
-		                <span>ülke</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="20">0</strong>
-		                <span>Yıllık Tecrübe</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18 text-center">
-		              <div class="text">
-		                <strong class="number" data-number="10000">0</strong>
-		                <span>Başarılı Vize</span>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-	        </div>
+    <section class="ftco-section ftco-counter" id="section-counter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="10000">0</strong>
+                    <span>Mutlu Müşteri</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="100">0</strong>
+                    <span>ülke</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="20">0</strong>
+                    <span>Yıllık Tecrübe</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="10000">0</strong>
+                    <span>Başarılı Vize</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    	</div>
+      </div>
     </section>
 
     <div class="container">
@@ -238,8 +357,7 @@
                 <div class="col-md-4 d-flex ftco-animate align-items-stretch">
                     <div class="blog-entry d-flex flex-column w-100" style="border:1px solid #dcdcdc;border-radius:12px;">
                         <a href="{{ route('blog.show', $blog->slug) }}" class="block-20"
-                        style="background-image: url('{{ $blog->image_url }}'); height:220px; background-size:cover; background-position:center;
-                        border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                          style="background-image: url('{{ asset('images/blog_images/' . $blog->image) }}'); height: 220px; background-size: cover; background-position: center; border-top-left-radius: 12px; border-top-right-radius: 12px;">
                         </a>
 
                         <div class="text mt-3 d-flex flex-column flex-grow-1" style="padding:10px 15px;">
@@ -314,6 +432,119 @@
       </div>
     </section>
 @endsection
+
+  <!-- Özel CSS -->
+    <style>
+        .service-card {
+            background: #fff;
+            border-radius: 12px;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid #eee;
+            min-height: 100%;
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+            border-color: #2c3e50;
+        }
+        .service-card .icon {
+            font-size: 40px;
+            color: #2c3e50;
+            transition: all 0.3s ease;
+        }
+        .service-card h3 {
+            font-weight: 600;
+        }
+        .service-card p {
+            font-size: 14px;
+            color: #555;
+            flex-grow: 1;
+        }
+        .btn-outline-detail{
+            color: #2c3e50;
+            background-color: transparent;
+            background-image: none;
+            border-color: #2c3e50;
+        }
+    </style>
+
+<style>
+.service-box {
+    transition: all 0.3s ease;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15) !important;
+}
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.advantage-box {
+    transition: all 0.3s ease;
+}
+
+.advantage-box:hover {
+    transform: scale(1.05);
+}
+
+.destination-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.destination-card img {
+    transition: transform 0.5s ease;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.destination-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+}
+
+.destination-overlay h4 {
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.destination-card:hover img {
+    transform: scale(1.1);
+}
+
+.feature-item i {
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .destination-card img {
+        height: 200px;
+    }
+}
+</style>
 
 <style>
       .btn-primary:hover {

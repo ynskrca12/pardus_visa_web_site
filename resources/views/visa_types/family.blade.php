@@ -9,7 +9,7 @@
     <div class="hero-wrap" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('{{ asset('images/visa_banner.jpg') }}'); background-size: cover; background-position: center;">
         <div class="container">
             <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
-                <div class="col-md-10 ftco-animate text-center d-flex align-items-end justify-content-center">
+                <div class="col-md-10 text-center d-flex align-items-end justify-content-center" data-aos="fade-up">
                     <div class="text">
                         <p class="breadcrumbs mb-2">
                             <span class="mr-2"><a href="{{ route('home') }}" style="color: rgba(255,255,255,0.8);">Ana Sayfa</a></span>
@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <!-- Aile Birleşimi Vizesi Tanımı -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <div class="section-header mb-4">
                             <h2 class="mt-3 mb-4" style="font-size: 2.5em; font-weight: 600; color: #2c3e50;">Aile Birleşimi Vizesi Nedir?</h2>
                         </div>
@@ -48,7 +48,7 @@
                     </div>
 
                     <!-- Aile Birleşimi Vizesi Avantajları -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Aile Birleşimi Vizesi Avantajları</h3>
                         <div class="row">
                             <div class="col-md-6 mb-4">
@@ -91,7 +91,7 @@
                     </div>
 
                     <!-- Kimler Başvurabilir -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Kimler Aile Birleşimi Vizesi İçin Başvurabilir?</h3>
                         <div class="family-members-grid">
                             <div class="row">
@@ -156,7 +156,7 @@
                     </div>
 
                     <!-- Gerekli Belgeler -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Aile Birleşimi Vizesi İçin Gerekli Belgeler</h3>
                         <div class="documents-container">
                             <div class="row">
@@ -240,7 +240,7 @@
                     </div>
 
                     <!-- Başvuru Süreci -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Aile Birleşimi Vizesi Başvuru Süreci</h3>
                         <div class="process-timeline">
                             <div class="timeline-item mb-4">
@@ -299,7 +299,7 @@
                     </div>
 
                     <!-- SSS -->
-                    <div class="content-section mb-5 ftco-animate">
+                    <div class="content-section mb-5" data-aos="fade-up">
                         <h3 class="mb-4" style="font-size: 2em; font-weight: 600; color: #2c3e50;">Sıkça Sorulan Sorular</h3>
                         <div class="faq-container">
                             <div class="accordion" id="familyReunionFAQ">
@@ -368,10 +368,6 @@
                         <div class="card-header text-center py-3" style="background: linear-gradient(135deg, #2c3e50, #34495e); color: white;">
                             <h4 class="mb-0 text-white">Aile Birleşimi Vizesi</h4>
                         </div>
-                         <div class="price-display mb-3 mt-3">
-                                <span class="h2" style="color: #2c3e50;">$500</span>
-                                <small class="text-muted d-block">başlangıç fiyat</small>
-                            </div>
 
                         <div class="pricing-body p-4">
                             <!-- Vize Özellikleri -->
@@ -541,7 +537,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">1500+</span>
@@ -549,7 +545,7 @@
                         <p class="text-muted mb-0">Aile Birleşimi</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">%92</span>
@@ -557,7 +553,7 @@
                         <p class="text-muted mb-0">Başarı Oranı</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">25</span>
@@ -565,7 +561,7 @@
                         <p class="text-muted mb-0">Ortalama İşlem Günü</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4 text-center ftco-animate">
+                <div class="col-md-3 col-sm-6 mb-4 text-center" data-aos="fade-up">
                     <div class="counter-item" style="background: white; padding: 30px 20px; border-radius: 12px; box-shadow: 0 3px 15px rgba(0,0,0,0.08);">
                         <div class="counter-number mb-2">
                             <span class="h2" style="color: #2c3e50; font-weight: 700;">350+</span>
