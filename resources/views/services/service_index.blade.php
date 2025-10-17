@@ -9,7 +9,7 @@
     <div class="hero-wrap" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('{{ asset('images/visa_banner.jpg') }}'); background-size: cover; background-position: center;">
         <div class="container">
             <div class="row no-gutters slider-text d-flex align-items-end justify-content-center">
-                <div class="col-md-10 ftco-animate text-center d-flex align-items-end justify-content-center">
+                <div class="col-md-10 text-center d-flex align-items-end justify-content-center" data-aos="fade-up">
                     <div class="text">
                         <p class="breadcrumbs mb-2">
                             <span class="mr-2"><a href="{{ route('home') }}" style="color: rgba(255,255,255,0.8);">Ana Sayfa</a></span>
@@ -349,9 +349,6 @@
 
 @push('styles')
 <style>
-.ftco-animate {
-    animation: fadeInUp 0.8s ease-out;
-}
 
 @keyframes fadeInUp {
     from {

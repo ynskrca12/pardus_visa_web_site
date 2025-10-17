@@ -11,7 +11,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
-                <div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
+                <div class="col-md-9 text-center d-flex align-items-end justify-content-center" data-aos="fade-up">
                     <div class="text">
                         <p class="breadcrumbs mb-2">
                             <span class="mr-2"><a href="{{ route('home') }}">Anasayfa</a></span>
@@ -42,10 +42,10 @@
 
         <div class="row d-flex align-items-stretch">
             @forelse($blogs as $blog)
-            <div class="col-md-4 d-flex ftco-animate align-items-stretch">
+            <div class="col-md-4 d-flex align-items-stretch" data-aos="fade-up">
                 <div class="blog-entry d-flex flex-column w-100" style="border:1px solid #dcdcdc;border-radius:12px;">
                     <a href="{{ route('blog.show', $blog->slug) }}" class="block-20"
-                    style="background-image: url('{{ $blog->image_url }}'); height:220px; background-size:cover; background-position:center;
+                    style="background-image: url('{{ asset('images/blog_images/' . $blog->image) }}'); height:220px; background-size:cover; background-position:center;
                       border-top-left-radius: 12px; border-top-right-radius: 12px;">
                     </a>
 
@@ -227,12 +227,6 @@
             padding: 3px 8px;
             font-size: 10px;
         }
-    }
-
-    /* Animation on scroll */
-    .ftco-animate {
-        opacity: 0;
-        animation: fadeInUp 0.6s ease forwards;
     }
 
     @keyframes fadeInUp {
