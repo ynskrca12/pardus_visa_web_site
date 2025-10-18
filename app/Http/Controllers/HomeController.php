@@ -28,7 +28,7 @@ class HomeController extends Controller
             'description' => 'Turistik amaçlı seyahatler için',
             'description_summary' => 'Tatil ve gezi amaçlı seyahatleriniz için hızlı vize işlemleri ve profesyonel danışmanlık.',
             'route' => 'visa-types.tourist',
-            'image' => 'images/tourist_visa.jpg',
+            'image' => 'images/tourist_visa_new.jpg',
             'features' => [
                 'Tek giriş',
                 'Çoklu giriş seçeneği',
@@ -46,7 +46,7 @@ class HomeController extends Controller
             'description' => 'İş görüşmeleri ve toplantılar için',
             'description_summary' => 'İş görüşmeleri ve toplantılarınız için öncelikli işlem garantisi ile güvenli vize başvurusu.',
             'route' => 'visa-types.business',
-            'image' => 'images/business_visa.jpg',
+            'image' => 'images/business_visa_new.avif',
             'features' => [
                 'Çoklu giriş',
                 'Uzun süreli',
@@ -64,7 +64,7 @@ class HomeController extends Controller
             'description' => 'Eğitim amaçlı uzun süreli ikamet',
             'description_summary' => 'Yurtdışı eğitim hayaliniz için okul kaydı ve uzun süreli ikamet vizesi danışmanlığı.',
             'route' => 'visa-types.student',
-            'image' => 'images/student_visa.jpg',
+            'image' => 'images/student_visa_new.avif',
             'features' => [
                 'Uzun süreli',
                 'Çalışma izni',
@@ -82,7 +82,7 @@ class HomeController extends Controller
             'description' => 'Aktarma yapmak için kısa süreli',
             'description_summary' => 'Aktarmalı uçuşlarınız için 24-72 saat geçerli hızlı transit vize işlemleri.',
             'route' => 'visa-types.transit',
-            'image' => 'images/transit_visa.jpg',
+            'image' => 'images/transit_visa_min.jpg',
             'features' => [
                 'Kısa süreli',
                 'Havalimanı çıkışı',
@@ -100,7 +100,7 @@ class HomeController extends Controller
             'description' => 'Aile üyeleriyle birleşim için',
             'description_summary' => 'Sevdiklerinizle bir arada yaşamak için uzun süreli aile birleşimi vizesi desteği.',
             'route' => 'visa-types.family',
-            'image' => 'images/family_visa.jpg',
+            'image' => 'images/family_visa_new.jpg',
             'features' => [
                 'Çok uzun süreli',
                 'Aile desteği',
@@ -118,7 +118,7 @@ class HomeController extends Controller
             'description' => '26 Avrupa ülkesinde serbest dolaşım',
             'description_summary' => '26 Avrupa ülkesine tek vize ile seyahat etmeniz için eksiksiz evrak hazırlığı.',
             'route' => 'visa-types.schengen',
-            'image' => 'images/schengen_visa.jpg',
+            'image' => 'images/schengen_visa_new.jpg',
             'features' => [
                 '26 ülke erişimi',
                 'Çoklu giriş',
@@ -136,7 +136,7 @@ class HomeController extends Controller
             'description' => 'BAE ve Dubai için hızlı turist vizesi',
             'description_summary' => 'BAE\'nin göz bebeği Dubai için 3-5 iş gününde e-vize ile hızlı giriş imkanı.',
             'route' => 'visa-types.dubai',
-            'image' => 'images/dubai_visa.jpg',
+            'image' => 'images/dubai_visa_new.jpeg',
             'features' => [
                 'E-vize sistemi',
                 'Hızlı onay',
@@ -154,7 +154,7 @@ class HomeController extends Controller
             'description' => 'ABD B1/B2 turist ve iş vizesi',
             'description_summary' => 'ABD B1/B2 vizesi için mülakat hazırlığı ve 10 yıl geçerli çoklu giriş desteği.',
             'route' => 'visa-types.usa',
-            'image' => 'images/usa_visa.jpg',
+            'image' => 'images/usa_visa_new.jpg',
             'features' => [
                 'Görüşme hazırlığı',
                 'Çoklu giriş',
@@ -172,7 +172,7 @@ class HomeController extends Controller
             'description' => 'UK Standard Visitor Visa',
             'description_summary' => 'UK Standard Visitor Visa için evrak hazırlığı ve randevu organizasyon hizmeti.',
             'route' => 'visa-types.uk',
-            'image' => 'images/uk_visa.jpg',
+            'image' => 'images/uk_visa_new.webp',
             'features' => [
                 'Standart ziyaretçi',
                 '6 ay kalış',
@@ -190,7 +190,7 @@ class HomeController extends Controller
             'description' => 'Kanada ziyaretçi vizesi (eTA)',
             'description_summary' => 'eTA online başvuru ve biyometrik işlemler için kapsamlı Kanada vize danışmanlığı.',
             'route' => 'visa-types.canada',
-            'image' => 'images/canada_visa.jpg',
+            'image' => 'images/canada_visa_new.jpg',
             'features' => [
                 'eTA online başvuru',
                 'Biyometrik destek',
@@ -208,7 +208,7 @@ class HomeController extends Controller
             'description' => 'Rusya turist vizesi',
             'description_summary' => 'Turistik davetiye ve voucher desteği ile Rusya vizesi için hızlı başvuru süreci.',
             'route' => 'visa-types.russia',
-            'image' => 'images/russia_visa.jpg',
+            'image' => 'images/russia_visa_new.jpg',
             'features' => [
                 'Davetiye desteği',
                 'Turist voucher',
@@ -226,7 +226,7 @@ class HomeController extends Controller
             'description' => 'Çin turist vizesi (L Visa)',
             'description_summary' => 'L Visa turist vizesi için otel rezervasyonu ve uçak bileti desteği ile kolay başvuru.',
             'route' => 'visa-types.china',
-            'image' => 'images/china_visa.jpg',
+            'image' => 'images/china_visa_new.webp',
             'features' => [
                 'Tek/çift giriş',
                 'Otel rezervasyon',
