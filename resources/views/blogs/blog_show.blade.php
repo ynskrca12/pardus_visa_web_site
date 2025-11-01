@@ -13,7 +13,7 @@
         <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
             <div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
                 <div class="text">
-                    <h1 class="mb-4 bread">{{ $blog->title }}</h1>
+                    <h1 class="mb-4 bread" style="font-size: 40px;">{{ $blog->title }}</h1>
                 </div>
             </div>
         </div>

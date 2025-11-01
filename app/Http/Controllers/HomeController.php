@@ -11,9 +11,10 @@ class HomeController extends Controller
     public function index()
     {
 
-        $query = Blog::query();
+        $blogs = Blog::orderBy('id', 'desc')
+             ->take(6)
+             ->get();
 
-        $blogs = $query->paginate(8);
         $featuredBlogs = Blog::published()->get();
         $recentBlogs = Blog::published()->recent(5)->get();
 
@@ -237,6 +238,11 @@ class HomeController extends Controller
         ];
 
         return view('home', compact('blogs', 'featuredBlogs', 'recentBlogs', 'visaTypes'));
+    }
+
+    public function corporateTravel()
+    {
+        return view('corporate_travel');
     }
 
     public function sozlesme()

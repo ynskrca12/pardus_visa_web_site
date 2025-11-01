@@ -32,7 +32,7 @@ Route::prefix('vize-turleri')->name('visa-types.')->group(function () {
     Route::get('/kanada-vizesi', [VisaTypeController::class, 'canada'])->name('canada');
     Route::get('/rusya-vizesi', [VisaTypeController::class, 'russia'])->name('russia');
     Route::get('/cin-vizesi', [VisaTypeController::class, 'china'])->name('china');
-    
+
     // Ek Popüler Destinasyonlar (isteğe bağlı)
     Route::get('/avustralya-vizesi', [VisaTypeController::class, 'australia'])->name('australia');
     Route::get('/japonya-vizesi', [VisaTypeController::class, 'japan'])->name('japan');
@@ -44,7 +44,7 @@ Route::prefix('vize-turleri')->name('visa-types.')->group(function () {
     Route::get('/singapur-vizesi', [VisaTypeController::class, 'singapore'])->name('singapore');
     Route::get('/guney-kore-vizesi', [VisaTypeController::class, 'south_korea'])->name('south_korea');
     Route::get('/brezilya-vizesi', [VisaTypeController::class, 'brazil'])->name('brazil');
-    
+
 });
 
 // Ülkeler - Her ülke için SEO friendly URL
@@ -101,6 +101,7 @@ Route::prefix('iletisim')->name('contact.')->group(function () {
 });
 
 Route::get('/hakkimizda', [ContactController::class, 'about_us'])->name('about.us');
+Route::get('/kurumsal-seyahat-yonetimi', [HomeController::class, 'corporateTravel'])->name('corporate.travel');
 
 // // Blog - SEO için kritik
 // Route::prefix('blog')->name('blog.')->group(function () {

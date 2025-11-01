@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
               <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
-            <img src="{{ asset('images/logo.png') }}" 
-                 alt="Travellines Logo" 
+            <img src="{{ asset('images/logo.png') }}"
+                 alt="Travellines Logo"
                  style="height: 40px; margin-right: 10px;">
             <span class="mt-2">PARDUS</span>
         </a>
@@ -14,6 +14,9 @@
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
                     <a href="{{ route('home') }}" class="nav-link">Ana Sayfa</a>
+                </li>
+                <li class="nav-item {{ Request::is('kurumsal-seyahat-yonetimi*') ? 'active' : '' }}">
+                    <a href="{{ route('corporate.travel') }}" class="nav-link">Kurumsal Seyahat</a>
                 </li>
                 <li class="nav-item {{ Request::is('vize-turleri*') ? 'active' : '' }}">
                     <a href="{{ route('visa-types.visa_types_index') }}" class="nav-link">Vize Türleri</a>
@@ -27,9 +30,9 @@
                 <li class="nav-item {{ Request::is('hizmetlerimiz*') ? 'active' : '' }}">
                     <a href="{{ route('services.index') }}" class="nav-link">Hizmetlerimiz</a>
                 </li>
-                <li class="nav-item {{ Request::is('blog*') ? 'active' : '' }}">
+                {{-- <li class="nav-item {{ Request::is('blog*') ? 'active' : '' }}">
                     <a href="{{ route('blog.index') }}" class="nav-link">Blog</a>
-                </li>
+                </li> --}}
                 <li class="nav-item {{ Request::is('hakkimizda*') ? 'active' : '' }}">
                     <a href="{{ route('about.us') }}" class="nav-link">Hakkımızda</a>
                 </li>
@@ -37,33 +40,12 @@
                     <a href="{{ route('contact.index') }}" class="nav-link">İletişim</a>
                 </li>
             </ul>
-
-            {{-- <ul class="navbar-nav ml-auto">
-                <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
-                    <a href="{{ route('home') }}" class="nav-link">Ana Sayfa</a>
-                </li>
-                <li class="nav-item {{ Request::is('vize-turleri*') ? 'active' : '' }}">
-                    <a href="{{ route('visa-types.index') }}" class="nav-link">Vize Türleri</a>
-                </li>
-                <li class="nav-item {{ Request::is('ulkeler*') ? 'active' : '' }}">
-                    <a href="{{ route('countries.index') }}" class="nav-link">Ülkeler</a>
-                </li>
-                <li class="nav-item {{ Request::is('basvuru-sureci*') ? 'active' : '' }}">
-                    <a href="{{ route('application-process') }}" class="nav-link">Başvuru Süreci</a>
-                </li>
-                <li class="nav-item {{ Request::is('hizmetlerimiz*') ? 'active' : '' }}">
-                    <a href="{{ route('services.index') }}" class="nav-link">Hizmetlerimiz</a>
-                </li>
-                <li class="nav-item {{ Request::is('blog*') ? 'active' : '' }}">
-                    <a href="{{ route('blog.index') }}" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item {{ Request::is('hakkimizda*') ? 'active' : '' }}">
-                    <a href="{{ route('about') }}" class="nav-link">Hakkımızda</a>
-                </li>
-                <li class="nav-item {{ Request::is('iletisim*') ? 'active' : '' }}">
-                    <a href="{{ route('contact') }}" class="nav-link">İletişim</a>
-                </li>
-            </ul> --}}
         </div>
     </div>
 </nav>
+
+<style>
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        padding-left: 5px;
+    }
+</style>
